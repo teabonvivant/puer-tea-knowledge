@@ -3,10 +3,15 @@
   "built_at": "2026-09-12T07:43:33+00:00",
   "page_count": 912,
   "search_record_count": 761,
-  "file_count": 1187,
-  "content_sha256": "f003ea606f8a434c16e91c1d43ec3f4d1b416f0ca59065a408625400ae3d0fa0",
+  "file_count": 1189,
+  "content_sha256": "c1f21910953c54115da0ac65314507b4210f8d4b4a832a9ca7d10a187099568b",
   "broken_internal_links": [],
   "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
     {
       "path": ".nojekyll",
       "bytes": 0,
@@ -1639,13 +1644,13 @@
     },
     {
       "path": "downloads/claim_source_assessments.json",
-      "bytes": 329251,
-      "sha256": "51f030f9f79eb2cda370279c2e9044e6f52d0f413664708c5a293ebd387e7b5a"
+      "bytes": 333503,
+      "sha256": "c6d4f37a5bc2092acb244aca722368b17199b5a1175f3b1b882883f02bab8379"
     },
     {
       "path": "downloads/coverage_metrics.json",
-      "bytes": 1513,
-      "sha256": "f3af3972d14f4d3d301ed4dab58cd1bc152f16081421b3b8509b659ee67885a3"
+      "bytes": 1576,
+      "sha256": "01a90d4448751aa1dd5e83500ad657d947d67b53e252b49e992fa2eda9422d57"
     },
     {
       "path": "downloads/curated-glossary.csv",
@@ -1694,8 +1699,8 @@
     },
     {
       "path": "downloads/manifest-sha256.txt",
-      "bytes": 1893,
-      "sha256": "3e36817ceebe8dc79d598c26abdefe5a54cee4fc22492c8c19bbc2976b4d7967"
+      "bytes": 1914,
+      "sha256": "21358ca57c4167ed141439a000fafe0933ef6ee8cea9488ac18ccc7be887a2bf"
     },
     {
       "path": "downloads/public-document-index.csv",
@@ -1709,8 +1714,8 @@
     },
     {
       "path": "downloads/research_readiness.json",
-      "bytes": 6662,
-      "sha256": "3e761cbe9e8e67321a0e14cb703036b19cb6c09b0405d45d0b548fab31f42414"
+      "bytes": 6896,
+      "sha256": "027930f36067adb321c64990ce0f76a6b62783148bc251fb50c298ed93c5d919"
     },
     {
       "path": "downloads/retrieval_evaluation.csv",
@@ -1724,18 +1729,18 @@
     },
     {
       "path": "downloads/ten_point_scorecard.json",
-      "bytes": 17985,
-      "sha256": "d73fda3013df155fa6c8993ed106e3402bae2faf4aab8ec66d0c20d83962ec8e"
+      "bytes": 18255,
+      "sha256": "659427530e0d15d6ff4cebb365287d2f8910a4d9f59416b650ca642840d5a5e3"
     },
     {
       "path": "downloads/test_run.json",
-      "bytes": 285,
-      "sha256": "f8729b997715ff43b3e4a57edcde2938c6887c32b09106407ec06b1b6e6cabbd"
+      "bytes": 294,
+      "sha256": "45cc3dffba7e5ea605c50dad5c07289f6da16f6f98a62b0832aaf2e4b61e5461"
     },
     {
       "path": "downloads/verification.json",
-      "bytes": 195,
-      "sha256": "9bb9febcb7cabaa8b63ef7ee083a983b4fe898919e96a4b11a1f238d7c098e55"
+      "bytes": 207,
+      "sha256": "08d92a88f74b7cf2a9216ce8c612a988cb099ff8ad64eab3dbd40c9a95ff8cb0"
     },
     {
       "path": "evidence/claims/clm-0015663ef1eeec292eb6/index.html",
@@ -5061,6 +5066,11 @@
       "path": "people/institutions/kin-000030/index.html",
       "bytes": 6985,
       "sha256": "056b93b9d201da22f8ed7b19277b61b10ea78b8bc5a991322127b9b562168619"
+    },
+    {
+      "path": "README.md",
+      "bytes": 803,
+      "sha256": "bde0060f37496abf0eb98b9c28702e365a32871f00d4aec93084ce46cc5323a7"
     },
     {
       "path": "robots.txt",

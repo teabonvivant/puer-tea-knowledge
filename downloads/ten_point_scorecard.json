@@ -190,70 +190,70 @@
       "details": {
         "api_checks": [
           {
-            "path": "/puer-tea-knowledge/health",
+            "path": "/health",
             "method": "GET",
             "status": 200,
             "ok": true,
             "has_json": true
           },
           {
-            "path": "/puer-tea-knowledge/documents",
+            "path": "/documents",
             "method": "GET",
             "status": 200,
             "ok": true,
             "has_json": true
           },
           {
-            "path": "/puer-tea-knowledge/documents/DOC-000001",
+            "path": "/documents/DOC-000001",
             "method": "GET",
             "status": 200,
             "ok": true,
             "has_json": true
           },
           {
-            "path": "/puer-tea-knowledge/experts",
+            "path": "/experts",
             "method": "GET",
             "status": 200,
             "ok": true,
             "has_json": true
           },
           {
-            "path": "/puer-tea-knowledge/experts/PER-000001",
+            "path": "/experts/PER-000001",
             "method": "GET",
             "status": 200,
             "ok": true,
             "has_json": true
           },
           {
-            "path": "/puer-tea-knowledge/places",
+            "path": "/places",
             "method": "GET",
             "status": 200,
             "ok": true,
             "has_json": true
           },
           {
-            "path": "/puer-tea-knowledge/places/PLC-000001",
+            "path": "/places/PLC-000001",
             "method": "GET",
             "status": 200,
             "ok": true,
             "has_json": true
           },
           {
-            "path": "/puer-tea-knowledge/reports/acquisition",
+            "path": "/reports/acquisition",
             "method": "GET",
             "status": 200,
             "ok": true,
             "has_json": true
           },
           {
-            "path": "/puer-tea-knowledge/search",
+            "path": "/search",
             "method": "POST",
             "status": 200,
             "ok": true,
             "has_json": true
           },
           {
-            "path": "/puer-tea-knowledge/ask",
+            "path": "/ask",
             "method": "POST",
             "status": 200,
             "ok": true,
@@ -566,70 +566,70 @@
       "base": "http://127.0.0.1:52511",
       "checks": [
         {
-          "path": "/puer-tea-knowledge/health",
+          "path": "/health",
           "method": "GET",
           "status": 200,
           "ok": true,
           "has_json": true
         },
         {
-          "path": "/puer-tea-knowledge/documents",
+          "path": "/documents",
           "method": "GET",
           "status": 200,
           "ok": true,
           "has_json": true
         },
         {
-          "path": "/puer-tea-knowledge/documents/DOC-000001",
+          "path": "/documents/DOC-000001",
           "method": "GET",
           "status": 200,
           "ok": true,
           "has_json": true
         },
         {
-          "path": "/puer-tea-knowledge/experts",
+          "path": "/experts",
           "method": "GET",
           "status": 200,
           "ok": true,
           "has_json": true
         },
         {
-          "path": "/puer-tea-knowledge/experts/PER-000001",
+          "path": "/experts/PER-000001",
           "method": "GET",
           "status": 200,
           "ok": true,
           "has_json": true
         },
         {
-          "path": "/puer-tea-knowledge/places",
+          "path": "/places",
           "method": "GET",
           "status": 200,
           "ok": true,
           "has_json": true
         },
         {
-          "path": "/puer-tea-knowledge/places/PLC-000001",
+          "path": "/places/PLC-000001",
           "method": "GET",
           "status": 200,
           "ok": true,
           "has_json": true
         },
         {
-          "path": "/puer-tea-knowledge/reports/acquisition",
+          "path": "/reports/acquisition",
           "method": "GET",
           "status": 200,
           "ok": true,
           "has_json": true
         },
         {
-          "path": "/puer-tea-knowledge/search",
+          "path": "/search",
           "method": "POST",
           "status": 200,
           "ok": true,
           "has_json": true
         },
         {
-          "path": "/puer-tea-knowledge/ask",
+          "path": "/ask",
           "method": "POST",
           "status": 200,
           "ok": true,

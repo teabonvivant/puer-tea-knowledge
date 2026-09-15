@@ -4,7 +4,7 @@
   "page_count": 912,
   "search_record_count": 761,
   "file_count": 1189,
-  "content_sha256": "c1f21910953c54115da0ac65314507b4210f8d4b4a832a9ca7d10a187099568b",
+  "content_sha256": "d9b65bdc7abbf26558ab98146c888adb7fd8dd9f1dee24d41cc816293690e39d",
   "broken_internal_links": [],
   "files": [
     {
@@ -1249,8 +1249,8 @@
     },
     {
       "path": "assets/site.js",
-      "bytes": 12995,
-      "sha256": "8de409a2c82288c0c30e35b5783713b5ffbb05b98e1a3dbb053dba96a22381aa"
+      "bytes": 12881,
+      "sha256": "7678ee434c58b74ab25c9f42abe9dbf16c9a9bc6f13d6f2dc915d61b02329f75"
     },
     {
       "path": "assets/visuals/tea-leaf-cover-1280.webp",

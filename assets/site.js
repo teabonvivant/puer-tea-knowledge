@@ -7,8 +7,8 @@
     .toString()
     .normalize("NFKC")
     .toLocaleLowerCase("zh-Hant")
-    .replace(/puer-tea-knowledge/[发陈仓储晒杀涩树叶产区学术国标检验历录谱书贡干湿农药龄类图词简冲当种饮气强浓轻质]/g, (char) => variants[char])
-    .replace(/puer-tea-knowledge/\s+/g, " ")
+    .replace(/[发陈仓储晒杀涩树叶产区学术国标检验历录谱书贡干湿农药龄类图词简冲当种饮气强浓轻质]/g, (char) => variants[char])
+    .replace(/\s+/g, " ")
     .trim();
 
   document.querySelectorAll("[data-filter-root]").forEach((root) => {
@@ -132,15 +132,15 @@
     const segmenter = typeof Intl.Segmenter === "function" ? new Intl.Segmenter("zh-Hant", { granularity: "word" }) : null;
     const queryTokens = (query) => {
       // Preserve standard numbers and English technical terms; segment prose questions.
-      if (/puer-tea-knowledge/^(?:[a-z]+[ /-]*)?\d/.test(query) || !/[\u3400-\u9fff]/.test(query)) return query.split(/puer-tea-knowledge/\s+/).filter(Boolean);
+      if (/^(?:[a-z]+[ /-]*)?\d/.test(query) || !/[\u3400-\u9fff]/.test(query)) return query.split(/\s+/).filter(Boolean);
       const known = topicWords.filter((term) => query.includes(term));
-      const words = segmenter ? [...segmenter.segment(query)].filter((s) => s.isWordLike).map((s) => s.segment) : query.split(/puer-tea-knowledge/\s+/);
+      const words = segmenter ? [...segmenter.segment(query)].filter((s) => s.isWordLike).map((s) => s.segment) : query.split(/\s+/);
       const useful = words.filter((word) => word.length > 1 && !stopwords.has(word) && !known.some((term) => term.includes(word)));
       const selected = [...new Set([...known, ...useful])];
       return selected.length ? selected : [query];
     };
 
-    const escapeHtml = (value) => value.replace(/puer-tea-knowledge/[&<>"']/g, (character) => ({
+    const escapeHtml = (value) => value.replace(/[&<>"']/g, (character) => ({
       "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#039;"
     })[character]);
 

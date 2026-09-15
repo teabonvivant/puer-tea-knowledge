@@ -1,0 +1,101 @@
+﻿term_id,term_traditional,term_simplified,pinyin,english,category,definition,aliases,sources,updated_at
+GLS-000063,乾基,干基,gan ji,dry-weight basis,化學,把含量換算至不含水樣品質量的表示基準；與濕基數值不可直接混用。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000060,代謝組學,代谢组学,dai xie zu xue,metabolomics,化學,用儀器與統計方法同時觀察大量小分子特徵的研究策略，辨識結果受平台及資料處理影響。,,"[{""label"": ""化學研究文獻集"", ""url"": ""/library/documents/?topic=chemistry""}]",2026-09-12
+GLS-000052,兒茶素,儿茶素,er cha su,catechins,化學,茶葉重要黃烷醇類成分的總稱，包括多種單體，各自含量與反應性不同。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000056,可溶性糖,可溶性糖,ke rong xing tang,soluble sugars,化學,可溶於指定萃取條件的一組糖類，會參與滋味與加工轉化。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000053,咖啡因,咖啡因,ka fei yin,caffeine,化學,茶葉主要嘌呤生物鹼之一，實際攝入量受茶樣、茶水比、溫度與沖泡時間影響。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000059,揮發性成分,挥发性成分,hui fa xing cheng fen,volatile compounds,化學,可進入氣相並由相應方法檢出的化合物集合，與香氣相關但不必然能被人感知。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000057,有機酸,有机酸,you ji suan,organic acids,化學,茶葉及發酵中可測得的多類酸性有機化合物，可能影響酸度、滋味及代謝。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000065,標準品,标准品,biao zhun pin,analytical reference standard,化學,用於確認、校準或定量分析物的已知參考物質；欠缺標準品時的暫定鑑定須清楚標示。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000058,水浸出物,水浸出物,shui jin chu wu,water extract,化學,按規定方法測得、可被水萃取的物質總量，涵蓋多種可溶性成分。,,"[{""label"": ""GB/T 22111-2008"", ""url"": ""https://std.samr.gov.cn/gb/search/gbDetailed?id=oJw0FpayIsM%3D&mode=p""}]",2026-09-12
+GLS-000054,游離氨基酸,游离氨基酸,you li an ji suan,free amino acids,化學,未結合於蛋白質、可被分析與萃取的一組氨基酸，常與滋味研究一併討論。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000064,濕基,湿基,shi ji,wet-weight basis,化學,以樣品當前含水狀態總質量為分母的表示基準。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000061,色譜,色谱,se pu,chromatography,化學,依化合物在固定相與流動相之間行為差異進行分離的分析技術。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000051,茶多酚,茶多酚,cha duo fen,tea polyphenols,化學,茶葉中多類酚性化合物的集合性分析指標；測定方法不同，數值未必可直接比較。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000055,茶氨酸,茶氨酸,cha an suan,theanine,化學,茶葉中具代表性的非蛋白質氨基酸；含量及攝入量不能直接等同臨床效果。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000062,質譜,质谱,zhi pu,mass spectrometry,化學,依離子質荷比分析化合物的技術，常與色譜聯用；鑑定可信度取決於標準品與譜庫等證據。,,"[{""label"": ""化學成分頁"", ""url"": ""/science/chemistry/""}]",2026-09-12
+GLS-000010,古樹茶,古树茶,gu shu cha,old-tree tea,基礎,市場及地方語境常用的樹齡／樹體聲稱，尚須交代年齡判準、測量方法、產地及批次，不能只憑名稱證明。,,"[{""label"": ""知識庫證據指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000009,嘜號,唛号,mai hao,recipe or lot code,基礎,行業中用於識別配方、規格或批次的編碼；不同企業及年代的規則可能不同，不能離開生產者資料解讀。,,"[{""label"": ""知識庫方法頁"", ""url"": ""/evidence/methodology/""}]",2026-09-12
+GLS-000007,地理標誌產品,地理标志产品,di li biao zhi chan pin,geographical indication product,基礎,品質、聲譽或其他特徵與特定地域相關，並按相應制度及標準管理的產品；不是單靠地名即可成立。,,"[{""label"": ""GB/T 22111-2008"", ""url"": ""https://std.samr.gov.cn/gb/search/gbDetailed?id=oJw0FpayIsM%3D&mode=p""}]",2026-09-12
+GLS-000008,批次,批次,pi ci,batch / lot,基礎,在可界定時間與條件下生產或處理、用於追溯與抽樣的一組產品。,,"[{""label"": ""DB53/T 1074-2021"", ""url"": ""https://dbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000005,散茶,散茶,san cha,loose tea,基礎,未壓成固定形狀、以散裝葉片形態存在的茶。,,"[{""label"": ""GB/T 22111-2008"", ""url"": ""https://std.samr.gov.cn/gb/search/gbDetailed?id=oJw0FpayIsM%3D&mode=p""}]",2026-09-12
+GLS-000001,普洱茶,普洱茶,pu er cha,Pu-erh tea,基礎,在不同語境可指依特定原料與工藝製成的茶類，或符合地理標誌產品標準的產品；引用時須說明採用的定義。,,"[{""label"": ""GB/T 22111-2008"", ""url"": ""https://std.samr.gov.cn/gb/search/gbDetailed?id=oJw0FpayIsM%3D&mode=p""}]",2026-09-12T07:43:33+00:00
+GLS-000004,曬青毛茶,晒青毛茶,shai qing mao cha,sun-dried crude tea,基礎,鮮葉經殺青、揉捻及日光乾燥等初製環節形成、供後續精製或壓製使用的毛茶。,,"[{""label"": ""DB5308/T 58-2020"", ""url"": ""https://dbba.sacinfo.org.cn/""}]",2026-09-12T07:43:33+00:00
+GLS-000003,熟茶,熟茶,shu cha,ripe Pu-erh,基礎,以曬青毛茶經渥堆發酵等工序製成的普洱茶產品類型。,普洱熟茶,"[{""label"": ""GB/T 22111-2008"", ""url"": ""https://std.samr.gov.cn/gb/search/gbDetailed?id=oJw0FpayIsM%3D&mode=p""}]",2026-09-12T07:43:33+00:00
+GLS-000002,生茶,生茶,sheng cha,raw Pu-erh,基礎,未經熟茶渥堆工序的普洱茶產品類型。GB/T 22111-2008 的生茶定義包括以曬青茶蒸壓成形等工序；市場所稱「散生茶」須再分清毛茶與成品用語。,普洱生茶,"[{""label"": ""GB/T 22111-2008"", ""url"": ""https://std.samr.gov.cn/gb/search/gbDetailed?id=oJw0FpayIsM%3D&mode=p""}]",2026-09-12T07:43:33+00:00
+GLS-000006,緊壓茶,紧压茶,jin ya cha,compressed tea,基礎,經蒸軟、模壓或其他成形程序製成餅、磚、沱等形態的茶。,,"[{""label"": ""GH/T 1124-2016"", ""url"": ""https://hbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000071,培養法,培养法,pei yang fa,culture-based method,微生物,在指定培養基與環境下分離或計數可生長微生物的方法，只涵蓋可在該條件生長的部分。,,"[{""label"": ""微生物學頁"", ""url"": ""/science/microbiology/""}]",2026-09-12
+GLS-000073,宏基因組,宏基因组,hong ji yin zu,metagenome,微生物,直接分析群落總 DNA 的方法，可描述分類與功能潛力，但不等於功能正在表達。,,"[{""label"": ""微生物學頁"", ""url"": ""/science/microbiology/""}]",2026-09-12
+GLS-000072,擴增子測序,扩增子测序,kuo zeng zi ce xu,amplicon sequencing,微生物,擴增特定標記基因區域後測序，用以估計群落組成；結果受引物、資料庫與流程影響。,,"[{""label"": ""微生物學頁"", ""url"": ""/science/microbiology/""}]",2026-09-12
+GLS-000074,相對豐度,相对丰度,xiang dui feng du,relative abundance,微生物,某分類序列佔樣本總序列的比例；比例增加不必然代表絕對數量增加。,,"[{""label"": ""微生物學頁"", ""url"": ""/science/microbiology/""}]",2026-09-12
+GLS-000068,真菌,真菌,zhen jun,fungi,微生物,包括酵母與黴菌等真核微生物；檢出名稱不等於活性、功能或毒素存在。,,"[{""label"": ""微生物學頁"", ""url"": ""/science/microbiology/""}]",2026-09-12
+GLS-000067,細菌,细菌,xi jun,bacteria,微生物,原核微生物的一大類；屬種或菌株層級在功能與安全上可能差異甚大。,,"[{""label"": ""微生物學頁"", ""url"": ""/science/microbiology/""}]",2026-09-12
+GLS-000075,菌株,菌株,jun zhu,strain,微生物,同一微生物物種內的特定分離或遺傳個體；功能與產毒能力常具有菌株差異。,,"[{""label"": ""微生物學頁"", ""url"": ""/science/microbiology/""}]",2026-09-12
+GLS-000066,菌群,菌群,jun qun,microbial community,微生物,特定樣本與時間內多種微生物組成的群落；採樣與分析方法會影響觀察。,,"[{""label"": ""微生物學頁"", ""url"": ""/science/microbiology/""}]",2026-09-12
+GLS-000069,酵母,酵母,jiao mu,yeast,微生物,多為單細胞形態的真菌，可參與發酵代謝；作用須落到菌株與工藝條件。,,"[{""label"": ""微生物學頁"", ""url"": ""/science/microbiology/""}]",2026-09-12
+GLS-000070,黴菌,霉菌,mei jun,mould,微生物,形成菌絲的真菌通稱；食品中是否有風險須按菌株、污染程度與毒素檢測判斷。,,"[{""label"": ""微生物學頁"", ""url"": ""/science/microbiology/""}]",2026-09-12
+GLS-000077,乾茶外形,干茶外形,gan cha wai xing,dry-leaf appearance,感官,沖泡前觀察茶葉條索、色澤、整碎、勻整與潔淨度等外觀特徵。,,"[{""label"": ""GB/T 23776-2018"", ""url"": ""https://std.samr.gov.cn/""}]",2026-09-12
+GLS-000082,回甘,回甘,hui gan,returning sweetness,感官,吞嚥後口腔中甜感或甘潤感重新顯現的常用描述；時間與強度宜分開記錄。,,"[{""label"": ""品飲紀錄指南"", ""url"": ""/learn/tasting-records/""}]",2026-09-12
+GLS-000086,堆味,堆味,dui wei,pile-fermentation odour,感官,熟茶渥堆後可能出現、與堆發酵相關的氣味描述；強度及接受度可隨散放與儲存改變。,,"[{""label"": ""熟茶渥堆頁"", ""url"": ""/science/pile-fermentation/""}]",2026-09-12
+GLS-000076,感官審評,感官审评,gan guan shen ping,sensory evaluation,感官,在規定環境與程序下，以感官觀察茶葉外形、湯色、香氣、滋味及葉底。,,"[{""label"": ""GB/T 23776-2018"", ""url"": ""https://std.samr.gov.cn/""}]",2026-09-12
+GLS-000078,湯色,汤色,tang se,liquor colour,感官,茶湯在規定條件下呈現的顏色、明暗與清濁等特徵。,,"[{""label"": ""GB/T 14487-2017"", ""url"": ""https://std.samr.gov.cn/""}]",2026-09-12
+GLS-000080,滋味,滋味,zi wei,taste and oral flavour,感官,入口後由味覺、口腔觸覺及鼻後嗅覺共同形成的整體感受。,,"[{""label"": ""GB/T 14487-2017"", ""url"": ""https://std.samr.gov.cn/""}]",2026-09-12
+GLS-000083,澀感,涩感,se gan,astringency,感官,口腔潤滑下降、收斂或乾澀的觸覺感受，與苦味不是同一感覺。,,"[{""label"": ""感官審評頁"", ""url"": ""/science/sensory/""}]",2026-09-12
+GLS-000087,盲評,盲评,mang ping,blind tasting,感官,評茶者不知道全部或部分樣品身份的評估設計，用以降低品牌、價格及來源暗示。,,"[{""label"": ""品飲紀錄指南"", ""url"": ""/learn/tasting-records/""}]",2026-09-12
+GLS-000084,苦味,苦味,ku wei,bitterness,感官,基本味覺之一；強度、持續時間與是否協調應分開描述。,,"[{""label"": ""感官審評頁"", ""url"": ""/science/sensory/""}]",2026-09-12
+GLS-000081,葉底,叶底,ye di,infused leaf,感官,沖泡後展開的茶葉，用於觀察色澤、嫩度、柔軟度、勻整與製程痕跡。,,"[{""label"": ""GB/T 23776-2018"", ""url"": ""https://std.samr.gov.cn/""}]",2026-09-12
+GLS-000085,陳香,陈香,chen xiang,aged aroma,感官,描述適當陳化茶常見香氣印象的術語；不應單憑此詞推定年份或倉儲真實性。,,"[{""label"": ""GB/T 14487-2017"", ""url"": ""https://std.samr.gov.cn/""}]",2026-09-12
+GLS-000079,香氣,香气,xiang qi,aroma,感官,嗅覺感知的揮發性刺激整體；描述時宜分香氣類型、強度、純淨度與持久度。,,"[{""label"": ""GB/T 14487-2017"", ""url"": ""https://std.samr.gov.cn/""}]",2026-09-12
+GLS-000049,伴生植物,伴生植物,ban sheng zhi wu,associated plant,植物與生態,與茶樹共同出現在茶園或茶林中的其他植物；其功能須以群落及管理資料判斷。,,"[{""label"": ""茶園生態頁"", ""url"": ""/science/ecology-cultivation/""}]",2026-09-12
+GLS-000048,冠層,冠层,guan ceng,canopy,植物與生態,植物群落上部枝葉形成的覆蓋層，影響光照、溫濕與雨滴動能。,,"[{""label"": ""茶園生態頁"", ""url"": ""/science/ecology-cultivation/""}]",2026-09-12
+GLS-000045,古茶園,古茶园,gu cha yuan,old tea garden,植物與生態,以歷史較久的茶樹及土地利用為特徵的茶園；範圍、年代與完整性須有具體調查依據。,,"[{""label"": ""UNESCO 景邁山頁"", ""url"": ""https://whc.unesco.org/en/list/1665""}]",2026-09-12
+GLS-000046,古茶林,古茶林,gu cha lin,old tea forest,植物與生態,景邁山遺產語境中，在森林冠層下延續傳統栽培與治理的茶林空間。,,"[{""label"": ""UNESCO 景邁山頁"", ""url"": ""https://whc.unesco.org/en/list/1665""}]",2026-09-12
+GLS-000044,古茶樹,古茶树,gu cha shu,old tea tree,植物與生態,指達到所採年齡判準的茶樹。各地定義與鑑定方法未必相同，引用時應列明判準、調查來源及估算誤差。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000043,實生苗,实生苗,shi sheng miao,seedling plant,植物與生態,由種子萌發培育的植株，與無性繁殖材料相比通常保留更多個體差異。,,"[{""label"": ""植物分類與種質頁"", ""url"": ""/science/botany-germplasm/""}]",2026-09-12
+GLS-000047,林下種植,林下种植,lin xia zhong zhi,understorey cultivation,植物與生態,在森林冠層之下栽培茶樹的土地利用方式；冠層結構、樹種及管理強度可有差異。,,"[{""label"": ""UNESCO 景邁山頁"", ""url"": ""https://whc.unesco.org/en/list/1665""}]",2026-09-12
+GLS-000039,栽培品種,栽培品种,zai pei pin zhong,cultivar,植物與生態,經人類選育、命名並以適當方式保持其特徵的栽培植物材料。,,"[{""label"": ""中國農業科學院茶葉研究所"", ""url"": ""https://www.tricaas.com/""}]",2026-09-12
+GLS-000040,無性系,无性系,wu xing xi,clone,植物與生態,由同一母株經扦插等無性繁殖形成、遺傳背景較一致的材料群。,,"[{""label"": ""植物分類與種質頁"", ""url"": ""/science/botany-germplasm/""}]",2026-09-12
+GLS-000042,種質資源,种质资源,zhong zhi zi yuan,germplasm resource,植物與生態,供研究、育種、保育與利用的遺傳材料及其相關資訊。,,"[{""label"": ""中國農業科學院茶葉研究所"", ""url"": ""https://www.tricaas.com/""}]",2026-09-12
+GLS-000041,群體種,群体种,qun ti zhong,seed-propagated landrace population,植物與生態,長期以種子繁殖並受地方選擇形成、群體內仍具遺傳差異的栽培材料。,,"[{""label"": ""植物分類與種質頁"", ""url"": ""/science/botany-germplasm/""}]",2026-09-12
+GLS-000036,茶樹,茶树,cha shu,tea plant,植物與生態,山茶科山茶屬植物 Camellia sinensis 及其分類單元的通稱；栽培材料還涉及品種與地方群體。,,"[{""label"": ""Kew POWO"", ""url"": ""https://powo.science.kew.org/""}]",2026-09-12
+GLS-000037,阿薩姆變種,阿萨姆变种,a sa mu bian zhong,Camellia sinensis var. assamica,植物與生態,Kew POWO 接受的茶樹種下分類名稱之一；分類名稱不等同所有『雲南大葉種』材料。,,"[{""label"": ""Kew POWO taxon record"", ""url"": ""https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A60454412-2""}]",2026-09-12
+GLS-000038,雲南大葉種,云南大叶种,yun nan da ye zhong,Yunnan large-leaf tea group,植物與生態,標準、產業及種質語境使用的集合性名稱；不應在沒有額外證據時當作單一無性系或單一分類單元。,,"[{""label"": ""植物分類與種質頁"", ""url"": ""/science/botany-germplasm/""}]",2026-09-12
+GLS-000050,風土,风土,feng tu,terroir,植物與生態,把環境、栽培、製作與地方知識連結起來的概念；要形成科學比較，仍須拆成可量測變量。,,"[{""label"": ""茶園生態頁"", ""url"": ""/science/ecology-cultivation/""}]",2026-09-12
+GLS-000020,含水率,含水率,han shui lü,moisture content,製程,樣品所含水分的比例；須說明檢測方法及濕基／乾基，不能以手感代替精確數值。,,"[{""label"": ""GB/T 8302-2013"", ""url"": ""https://std.samr.gov.cn/""}]",2026-09-12
+GLS-000034,後發酵,后发酵,hou fa jiao,post-fermentation,製程,茶製成後由微生物及化學反應持續參與的轉化概念；不同標準與研究的範圍可能不同。,,"[{""label"": ""知識庫製程圖譜"", ""url"": ""/science/processes/""}]",2026-09-12
+GLS-000023,拼配,拼配,pin pei,blending,製程,按產品目標組合不同原料或批次，以調整穩定性、風格與成本；不等同低品質或造假。,,"[{""label"": ""GB/T 22111-2008"", ""url"": ""https://std.samr.gov.cn/gb/search/gbDetailed?id=oJw0FpayIsM%3D&mode=p""}]",2026-09-12
+GLS-000012,採摘標準,采摘标准,cai zhai biao zhun,plucking standard,製程,對芽葉組合、成熟度及可採部位的規定或操作要求。,,"[{""label"": ""DB5308/T 58-2020"", ""url"": ""https://dbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000017,揉捻,揉捻,rou nian,rolling,製程,施加機械力使葉片成條並改變組織結構的工序，力度與時間會影響外形及浸出。,,"[{""label"": ""DB5308/T 58-2020"", ""url"": ""https://dbba.sacinfo.org.cn/""}]",2026-09-12T07:43:33+00:00
+GLS-000013,攤放,摊放,tan fang,spreading / withering rest,製程,把鮮葉薄層放置以散熱、調整水分及加工狀態的環節，不應與所有茶類的萎凋等同。,,"[{""label"": ""DB5308/T 58-2020"", ""url"": ""https://dbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000019,曬青,晒青,shai qing,sun drying,製程,利用日光及環境條件降低揉捻葉水分的乾燥方式；厚度、天氣和翻動會影響結果。,,"[{""label"": ""DB5308/T 58-2020"", ""url"": ""https://dbba.sacinfo.org.cn/""}]",2026-09-12T07:43:33+00:00
+GLS-000014,殺青,杀青,sha qing,fixation,製程,以熱處理顯著抑制鮮葉酶活性、散失部分水分並建立揉捻條件的工序。,,"[{""label"": ""DB5308/T 58-2020"", ""url"": ""https://dbba.sacinfo.org.cn/""}]",2026-09-12T07:43:33+00:00
+GLS-000021,毛茶分級,毛茶分级,mao cha fen ji,crude-tea grading,製程,依外形、嫩度、勻整度或既定規格整理毛茶的程序；等級不自動等於綜合品質。,,"[{""label"": ""GB/T 22111-2008"", ""url"": ""https://std.samr.gov.cn/gb/search/gbDetailed?id=oJw0FpayIsM%3D&mode=p""}]",2026-09-12
+GLS-000028,沱茶,沱茶,tuo cha,bowl-shaped compressed tea,製程,呈碗臼或近似形態的緊壓茶類型。,,"[{""label"": ""GH/T 1124-2016"", ""url"": ""https://hbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000031,渥堆,渥堆,wo dui,pile fermentation,製程,毛茶加水成堆，在受控水、熱、氧及微生物條件下進行熟茶轉化的核心工序。,,"[{""label"": ""GB/T 22111-2008"", ""url"": ""https://std.samr.gov.cn/gb/search/gbDetailed?id=oJw0FpayIsM%3D&mode=p""}]",2026-09-12T07:43:33+00:00
+GLS-000030,潮水,潮水,chao shui,water addition,製程,熟茶渥堆前後按工藝需要向毛茶加水的操作，是含水與發酵控制的關鍵起點。,,"[{""label"": ""熟茶渥堆頁"", ""url"": ""/science/pile-fermentation/""}]",2026-09-12
+GLS-000029,磚茶,砖茶,zhuan cha,tea brick,製程,呈磚塊形態的緊壓茶；具體原料與工藝須看產品資料。,,"[{""label"": ""GH/T 1124-2016"", ""url"": ""https://hbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000022,篩分,筛分,shai fen,sieving,製程,利用篩孔或機械設備按尺寸等特徵分離茶葉的整理工序。,,"[{""label"": ""製程圖譜"", ""url"": ""/science/processes/""}]",2026-09-12
+GLS-000024,純料,纯料,chun liao,single-origin / unblended claim,製程,市場上表示原料範圍較單一的說法，但必須明確交代單一的是山頭、村寨、茶園、樹種、季節還是批次。,,"[{""label"": ""購買與真偽指南"", ""url"": ""/learn/buying-and-authenticity/""}]",2026-09-12
+GLS-000026,緊壓成形,紧压成形,jin ya cheng xing,compression forming,製程,把處理後茶葉壓成規定形狀與重量的環節，包括裝模、施壓與脫模。,,"[{""label"": ""GH/T 1124-2016"", ""url"": ""https://hbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000032,翻堆,翻堆,fan dui,pile turning,製程,翻動堆體以調整溫度、水分、供氧與均勻程度的操作。,,"[{""label"": ""熟茶渥堆頁"", ""url"": ""/science/pile-fermentation/""}]",2026-09-12
+GLS-000016,葉溫,叶温,ye wen,leaf temperature,製程,加工中葉片或葉堆的實際溫度，可能與設備設定或環境溫度有明顯差異。,,"[{""label"": ""製程控制頁"", ""url"": ""/science/primary-processing/""}]",2026-09-12
+GLS-000025,蒸壓,蒸压,zheng ya,steam compression,製程,以蒸汽使茶葉柔軟後壓製成形的工序，蒸汽、時間、壓力及模具均會影響成品。,,"[{""label"": ""GH/T 1124-2016"", ""url"": ""https://hbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000018,解塊,解块,jie kuai,de-clumping,製程,揉捻後鬆解成團茶葉，使後續乾燥較均勻的操作。,,"[{""label"": ""DB5308/T 58-2020"", ""url"": ""https://dbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000033,起堆,起堆,qi dui,pile opening,製程,渥堆達到工藝終點後散開堆體、進入乾燥與後續整理的操作。,,"[{""label"": ""熟茶渥堆頁"", ""url"": ""/science/pile-fermentation/""}]",2026-09-12
+GLS-000035,醒茶,醒茶,xing cha,tea resting / airing,製程,品飲前把茶從原包裝取出、撬散或短期放置的實務用語；效果受時間、環境與茶樣影響，並非統一標準工序。,,"[{""label"": ""沖泡頁"", ""url"": ""/science/brewing/""}]",2026-09-12
+GLS-000015,鍋溫,锅温,guo wen,pan temperature,製程,殺青設備或鍋體的溫度指標；與葉溫、投葉量及時間不同，報告時須說明量測位置。,,"[{""label"": ""製程控制頁"", ""url"": ""/science/primary-processing/""}]",2026-09-12
+GLS-000027,餅茶,饼茶,bing cha,tea cake,製程,常見圓餅狀緊壓茶形態；形狀本身不提供產地、年份或品質證明。,,"[{""label"": ""GH/T 1124-2016"", ""url"": ""https://hbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000011,鮮葉,鲜叶,xian ye,fresh tea leaves,製程,採摘後、尚未完成初製的茶樹芽葉；成熟度、損傷、溫度與等待時間會影響加工。,,"[{""label"": ""DB5308/T 58-2020"", ""url"": ""https://dbba.sacinfo.org.cn/""}]",2026-09-12
+GLS-000088,一手來源,一手来源,yi shou lai yuan,primary source,證據與方法,直接記錄研究、法規、事件、觀察或當事人陳述的原始材料；仍須評估其方法與立場。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000098,主張候選,主张候选,zhu zhang hou xuan,claim candidate,證據與方法,由機器從文獻抽取、等待人工核對語境與來源的陳述，不是已確認的公開結論。,,"[{""label"": ""知識庫方法頁"", ""url"": ""/evidence/methodology/""}]",2026-09-12
+GLS-000089,二手來源,二手来源,er shou lai yuan,secondary source,證據與方法,整理、分析或解釋一手材料的來源，例如綜述及歷史研究。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000090,同行評審,同行评审,tong hang ping shen,peer review,證據與方法,出版前由相關領域同行評估稿件的方法與論證；能提高把關程度，但不保證結論永遠正確。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000095,因果關係,因果关系,yin guo guan xi,causality,證據與方法,某因素改變會導致結果改變的關係，需要設計、時間順序、排除混雜及多方面證據支持。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000097,外推,外推,wai tui,extrapolation,證據與方法,把特定樣本、條件或模型的結果推廣到更大範圍；超出原研究邊界時須明示不確定性。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000093,對照組,对照组,dui zhao zu,control group,證據與方法,用於比較並協助辨識處理效果的基準組，設計時應盡量只在目標因素上不同。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000092,樣本數,样本量,yang ben shu,sample size,證據與方法,研究納入的獨立觀察單位數；技術重複不應誤當生物或批次重複。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000096,混雜因素,混杂因素,hun za yin su,confounder,證據與方法,同時與比較因素及結果相關、可能造成表面關聯的第三個變量。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000094,相關性,相关性,xiang guan xing,correlation,證據與方法,兩個變量共同變化的統計關係；本身不能證明其中一個造成另一個。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000091,系統綜述,系统综述,xi tong zong shu,systematic review,證據與方法,依預先方法全面搜尋、篩選及綜合研究的文獻工作；品質取決於問題、檢索、偏差評估及納入研究。,,"[{""label"": ""證據閱讀指南"", ""url"": ""/learn/how-to-read-evidence/""}]",2026-09-12
+GLS-000099,證據鏈,证据链,zheng ju lian,evidence chain,證據與方法,從公開陳述連回來源文件、具體段落、版本、取得時間及審核狀態的可追溯關係。,,"[{""label"": ""知識庫方法頁"", ""url"": ""/evidence/methodology/""}]",2026-09-12
+GLS-000100,資料缺口,数据缺口,zi liao que kou,data gap,證據與方法,現有資料不足以回答特定問題的範圍；公開缺口能防止沉默被誤解為確定答案。,,"[{""label"": ""知識庫覆蓋頁"", ""url"": ""/evidence/coverage/""}]",2026-09-12

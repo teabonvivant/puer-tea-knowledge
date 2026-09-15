@@ -1,0 +1,2228 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-13T14:01:28.518Z",
+  "master_count": 74,
+  "variant_count": 222,
+  "masters": {
+    "atlas/atlas-hub": {
+      "source_path": "atlas/atlas-hub-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 3281242,
+      "source_sha256": "ea492d512b458a1f331ca5cf34ba664039a555a4b6a5c4aebf9abea0d055cbd6",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "atlas/atlas-hub-640.webp",
+          "bytes": 63734,
+          "sha256": "07a41789bb22ec08c58018971d012892392a443ed2307aa58bedb0bdb9c624bd"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "atlas/atlas-hub-960.webp",
+          "bytes": 151300,
+          "sha256": "c04d4b25cea9435bbd0a5bd2a45dc7b9577a66eed9e70323489b06a5f28fcae3"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "atlas/atlas-hub-1536.webp",
+          "bytes": 328654,
+          "sha256": "02cb849c96a2757ef4d3ddfb219e3e00155d85ea3fbc917f8b916a774088afb1"
+        }
+      ]
+    },
+    "atlas/place-detail": {
+      "source_path": "atlas/place-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 3123902,
+      "source_sha256": "c9596bfcb51cc303cf25789e32e6db8303a93ee1966f5217d284cebfb1becfe3",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "atlas/place-detail-640.webp",
+          "bytes": 70212,
+          "sha256": "09ac0fb011369a3ea466be527489a98ed5d3b6b296bd364909e9acc213f6cccc"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "atlas/place-detail-960.webp",
+          "bytes": 158418,
+          "sha256": "aaf07de1ddb3b273b35e2fc8a0233b2be623d40b48da2ed16627089fc5cbfc29"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "atlas/place-detail-1536.webp",
+          "bytes": 321056,
+          "sha256": "c2808c3c13238014c0e145f937edcf0cc3e37ed613b60d7e6aaafe6729edad0e"
+        }
+      ]
+    },
+    "evidence/claim-detail": {
+      "source_path": "evidence/claim-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2409231,
+      "source_sha256": "f785a98ef79498ed27cdbc7e9f2157f27d42df9c900d784ed705e64c075796aa",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "evidence/claim-detail-640.webp",
+          "bytes": 36950,
+          "sha256": "0bff6e247a2b011ed452f48bc8e9fc547e1749c7dbaee4dcd629ca999f577218"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "evidence/claim-detail-960.webp",
+          "bytes": 73946,
+          "sha256": "ec661b742682c859813b9701b02d5f45e2a7c94512f0a07392d36286116c962d"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "evidence/claim-detail-1536.webp",
+          "bytes": 145068,
+          "sha256": "ee58707826d30ecc89e210d9b17d8f8e0d27d4f8f6e279edf28c720dbb127743"
+        }
+      ]
+    },
+    "evidence/evidence-hub": {
+      "source_path": "evidence/evidence-hub-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2157291,
+      "source_sha256": "0e37b24aa563b9d024e1c25f595c710fc3852cf89f1cb7e35c448bea67f1f0f0",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "evidence/evidence-hub-640.webp",
+          "bytes": 23696,
+          "sha256": "727997331dd59b09f08e01d1c4982f1ee2ca11396b287dd24f2f27e5a28b813c"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "evidence/evidence-hub-960.webp",
+          "bytes": 49322,
+          "sha256": "9e66b6ff3019f149270274e6c071e6682e943d15050b71ed44c028d255910f47"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "evidence/evidence-hub-1536.webp",
+          "bytes": 98410,
+          "sha256": "51a1776102f2d756fb9b59da2850c79562e94c7390d97745b4ba1cafcf2e44f4"
+        }
+      ]
+    },
+    "heritage/heritage-hub": {
+      "source_path": "heritage/heritage-hub-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 3390032,
+      "source_sha256": "df2a9a33219e72740f30abe4943c21182bca0a4d5c24434acfcca9609347477b",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "heritage/heritage-hub-640.webp",
+          "bytes": 75948,
+          "sha256": "a9abd65ced7e9e746c763c01c08326b798db1f1e4d47f4756cf78394a5a19f6e"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "heritage/heritage-hub-960.webp",
+          "bytes": 176880,
+          "sha256": "20d11bf6ffd2d7faaeb9534209e410d4629a3b76f7ad113443a291364656e261"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "heritage/heritage-hub-1536.webp",
+          "bytes": 373558,
+          "sha256": "eadbd191e0eff53c625224d841ae83d3778d1ca2363484ea4d2989218e8bcf18"
+        }
+      ]
+    },
+    "heritage/historical-source-detail": {
+      "source_path": "heritage/historical-source-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 3003351,
+      "source_sha256": "89747a5e73a39a8cc72c6b505ef0ff415a101d00476e8eb20745d2163e9255f5",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "heritage/historical-source-detail-640.webp",
+          "bytes": 42100,
+          "sha256": "741c68c06396de5d88c5843e5317aeed1390d8356b60f769b1e0e86787198b6c"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "heritage/historical-source-detail-960.webp",
+          "bytes": 101250,
+          "sha256": "3bd2dbf82dddf40c443c86ada202f27c7042137e36c46866b40a66ebdce7cec5"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "heritage/historical-source-detail-1536.webp",
+          "bytes": 228568,
+          "sha256": "be4eefa6e0581be72f5fd5f337edd524634612ca3f65f1e67060eb5121b92933"
+        }
+      ]
+    },
+    "home/home-hero": {
+      "source_path": "home/home-hero-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3379553,
+      "source_sha256": "619aca27139df640d2262131855353162967e892f84a68fde8beff552288710d",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "home/home-hero-640.webp",
+          "bytes": 36182,
+          "sha256": "d1b2d067cf105818abee545fbc61da82ee66386afb30bdd004d24937556fcaaa"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "home/home-hero-960.webp",
+          "bytes": 92650,
+          "sha256": "bcac170f34832529542cae1c7de32e85a13ffcd5e81f5d377656bc952bf98683"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "home/home-hero-1536.webp",
+          "bytes": 254412,
+          "sha256": "4a6e0d73fa8df1851e9be7a7f5a64ebb15381c5f9a898d88703664cced893319"
+        }
+      ]
+    },
+    "learn/glossary-detail": {
+      "source_path": "learn/glossary-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2629248,
+      "source_sha256": "9b70eb7ab09efd1dfd95a9b9aeead1c4577e7832ac53f093012577b9d50346d7",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "learn/glossary-detail-640.webp",
+          "bytes": 37688,
+          "sha256": "223af1acaf32e80055aa402c60a072076ec5118123d27383bf2b99857e54cad6"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "learn/glossary-detail-960.webp",
+          "bytes": 79626,
+          "sha256": "edaaae4e8cc14484e945ce8a700404019465b1c984428b08664755abd23ac89f"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "learn/glossary-detail-1536.webp",
+          "bytes": 162622,
+          "sha256": "74c2f36e50b70aa39c60234f88214e1a959fa033bb3813c74cd9f9b87943eb2f"
+        }
+      ]
+    },
+    "learn/learn-hub": {
+      "source_path": "learn/learn-hub-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2723812,
+      "source_sha256": "45aa800216025f30b68ced339398b307d425333606d7e89062d8883b5162db2b",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "learn/learn-hub-640.webp",
+          "bytes": 37846,
+          "sha256": "75166016a488a6cdc58c4b8758a9e9dbf65cbedb76a94ce84e570dde0ccc3891"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "learn/learn-hub-960.webp",
+          "bytes": 80108,
+          "sha256": "2b2e71e04c573ad3b515f3b13ef44c3cd7e0feb75f36c16a255969701a8f85dd"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "learn/learn-hub-1536.webp",
+          "bytes": 166800,
+          "sha256": "e1f8e4afec476e96c93d9e10a2978a13ca93924190908db71115071deb8fa97d"
+        }
+      ]
+    },
+    "library/document-detail": {
+      "source_path": "library/document-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2410429,
+      "source_sha256": "34aa9e1848b29ccbc11f1a58ed670ee31d15ae916ef6eeb977f9d2f13315b2c4",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "library/document-detail-640.webp",
+          "bytes": 30372,
+          "sha256": "6d775452712da2e8e17f17c7ded4bbf18bd5dd621d6d8e0966e2e3b7cb24ce11"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "library/document-detail-960.webp",
+          "bytes": 66722,
+          "sha256": "42b0770915570fbd8bb1104360d821b4dce152f0ff13e6e958200fdc9d4ed74e"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "library/document-detail-1536.webp",
+          "bytes": 141474,
+          "sha256": "974a070362c74d87e7650c9d1f5f14d96fc36d3b4cfa057d7edd26deee86e055"
+        }
+      ]
+    },
+    "library/library-hub": {
+      "source_path": "library/library-hub-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2463460,
+      "source_sha256": "c23915ca59d557f0c1cc98e7329f37c851deb283d3edba574d5369dc31be4268",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "library/library-hub-640.webp",
+          "bytes": 35114,
+          "sha256": "0e4a86b853355ef183a27096e877f3165faab288b5893c592dca1e8f0e843d34"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "library/library-hub-960.webp",
+          "bytes": 70380,
+          "sha256": "b29561a3ce7a62a809aa1ddb41beb71f33a74917c65d56a5475c8d04aa828e0b"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "library/library-hub-1536.webp",
+          "bytes": 134924,
+          "sha256": "bfac6684a5c42d540ad0cb3b3694359e83751a904405589a56592ae55bfa5a47"
+        }
+      ]
+    },
+    "library/standard-detail": {
+      "source_path": "library/standard-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2453981,
+      "source_sha256": "fc3173c6b9687eeb1ed02aff95d47a0099a54bf3dbf4209f97104a925c6e5d1a",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "library/standard-detail-640.webp",
+          "bytes": 41314,
+          "sha256": "1b8ac5c72f15c2eb88a847d73066bf4763f243bdcd0425ff3b82a66e3ef926bf"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "library/standard-detail-960.webp",
+          "bytes": 86366,
+          "sha256": "80a5f827a4f3d62078443e3627e7d05afecbfed4cb8b7ada447c8625c845d848"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "library/standard-detail-1536.webp",
+          "bytes": 172942,
+          "sha256": "ed1e56f11002e10cfd3eefd8509b520780375b9f9c6b10ed4ab0bf941a2835e2"
+        }
+      ]
+    },
+    "library/topic-detail": {
+      "source_path": "library/topic-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2313350,
+      "source_sha256": "3dd14e05862c15c532823607fcc3aad79b31a83506130f1176fd9293bb413881",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "library/topic-detail-640.webp",
+          "bytes": 31350,
+          "sha256": "5f65f6461c4dc4dc2d7a41023b8675c41a6ace6ec5f5b665395c7fa5e1c1485b"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "library/topic-detail-960.webp",
+          "bytes": 58240,
+          "sha256": "a45a7dcf230c5553e9fba4c0d70b8943c63be23dc89ad79f57db5ed6dc6081ba"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "library/topic-detail-1536.webp",
+          "bytes": 109852,
+          "sha256": "93d57fb6f00eeb0865d3fa03f4c95858874c7fc4f5301ac1c1253a2435b37924"
+        }
+      ]
+    },
+    "pages/atlas/ill-0003": {
+      "source_path": "pages/atlas/ill-0003-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2754763,
+      "source_sha256": "a3297edd636a45f1d866bccff61192fd5537212b5d87238c4cb667414aa213b1",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/atlas/ill-0003-640.webp",
+          "bytes": 21710,
+          "sha256": "1a5e898b847a2ebebb864f3b6caf4ad598cb40d47681f193598976000e4d21a2"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/atlas/ill-0003-960.webp",
+          "bytes": 51492,
+          "sha256": "093ce8efe8b8a2e36abb8d240f5bfa08aab5d4e6fe6907a0d1d85af17209009a"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/atlas/ill-0003-1536.webp",
+          "bytes": 129300,
+          "sha256": "8020a43f5e85b565f37446bf26f61390694bbbcb562f7f79ebff93425be96e4d"
+        }
+      ]
+    },
+    "pages/atlas/ill-0004": {
+      "source_path": "pages/atlas/ill-0004-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3557191,
+      "source_sha256": "2e2c77cf6b17b4ec7ab353174e6f74072f03f2c41099122d66a1a9bf4090b684",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/atlas/ill-0004-640.webp",
+          "bytes": 60268,
+          "sha256": "50fdb1e9df3f369cfc024026c560258a59469c7d84d97d799cb1be8742b729b4"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/atlas/ill-0004-960.webp",
+          "bytes": 136858,
+          "sha256": "e885012969a521154c7e43a7f4bb092d7bac2701e92bbe0a848eb6559f74e83c"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/atlas/ill-0004-1536.webp",
+          "bytes": 335328,
+          "sha256": "922c53213046e2d9aec33117d07bd68c67e44b5e848285b7e2ad3686659136a2"
+        }
+      ]
+    },
+    "pages/atlas/ill-0005": {
+      "source_path": "pages/atlas/ill-0005-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3141381,
+      "source_sha256": "fee73eef81bb3b4bcd0c1b55b8fe7eb6d76b5a4c4bfa4e2fa2ef0e546f4f85b1",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/atlas/ill-0005-640.webp",
+          "bytes": 37492,
+          "sha256": "85f8877cc7a9ad6a3d2b8d9469210af993df785fb14642bdebadfd7026d24567"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/atlas/ill-0005-960.webp",
+          "bytes": 88114,
+          "sha256": "d5a70df77fa65765f946843369d4097c17c86a8638e6b16d92a90be905d53966"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/atlas/ill-0005-1536.webp",
+          "bytes": 220662,
+          "sha256": "09351e72a6e2254ce1c2fdf222d02e3e649e80b9236e73a5c7c44cf74c421ab9"
+        }
+      ]
+    },
+    "pages/atlas/ill-0071": {
+      "source_path": "pages/atlas/ill-0071-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3193263,
+      "source_sha256": "e4afe378240e2c533d175d39973ea6929a4cda1531b33cc85acfebb143997c08",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/atlas/ill-0071-640.webp",
+          "bytes": 38464,
+          "sha256": "a83e3a878073dd943a7a35472123ca061f399a94e3b559d5c817fd514630f34f"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/atlas/ill-0071-960.webp",
+          "bytes": 90134,
+          "sha256": "8d5984149b09290a62e7ea5ef324c9719ce4a78e7219d24c4eafc52eae94d027"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/atlas/ill-0071-1536.webp",
+          "bytes": 231942,
+          "sha256": "67e44ce6390801f758f828d0954e42f47567f2c22910789ba6a0f3d9e086eeaf"
+        }
+      ]
+    },
+    "pages/atlas/ill-0072": {
+      "source_path": "pages/atlas/ill-0072-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2883409,
+      "source_sha256": "d7af7ed9c2d4064fc62fdb2fb71b82f8d67a6790e660f9ca6d853d3b86588136",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/atlas/ill-0072-640.webp",
+          "bytes": 24474,
+          "sha256": "62e5a79ce873a84b6f30a6dd8b5dec1fac006053fc59464194bb591221b9c4cc"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/atlas/ill-0072-960.webp",
+          "bytes": 56668,
+          "sha256": "3c7d2887a5921a3252128876dda6ca7de57588bf9b3d0b12294d184120854ffd"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/atlas/ill-0072-1536.webp",
+          "bytes": 147282,
+          "sha256": "456479ceee2bc769fe239bb9a955c8e058add90a82342152bc5c3840d718d08a"
+        }
+      ]
+    },
+    "pages/atlas/ill-0073": {
+      "source_path": "pages/atlas/ill-0073-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3237872,
+      "source_sha256": "2cb65e0ff7759c912887b56ce668a7db55a8602d8a034ef95f79e7e83f91bd82",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/atlas/ill-0073-640.webp",
+          "bytes": 46994,
+          "sha256": "44e57c697e9ac20d2da541f986e5abbb0050b35cbf901f39dfd40ac4c8293516"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/atlas/ill-0073-960.webp",
+          "bytes": 107060,
+          "sha256": "6a6bf67e150246c4c4ca49e13f4fc948f5b1994cf908026cc75cb255651e859e"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/atlas/ill-0073-1536.webp",
+          "bytes": 257676,
+          "sha256": "dd0b01f9014284b90564eafcd9e54b36f94a38354c127304ca6b1ea307a2bb78"
+        }
+      ]
+    },
+    "pages/atlas/ill-0074": {
+      "source_path": "pages/atlas/ill-0074-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3441781,
+      "source_sha256": "17f4cbf9c6f3d8e29e74845ce37a9e5f54acea003e1c81283abfe35742144324",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/atlas/ill-0074-640.webp",
+          "bytes": 43830,
+          "sha256": "88bdddfac19c7f42d3f4c98283baac05db2cfa0c2a8011c578daf5afbe71bd30"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/atlas/ill-0074-960.webp",
+          "bytes": 108094,
+          "sha256": "ca720a03e2409d7182578215ddccff74a261167d4697187b862638bec0e2207b"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/atlas/ill-0074-1536.webp",
+          "bytes": 287046,
+          "sha256": "65c5ed467269370a36e873e26c23a3681fc94f48717953f4c075015ca84b443f"
+        }
+      ]
+    },
+    "pages/evidence/ill-0076": {
+      "source_path": "pages/evidence/ill-0076-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 1949339,
+      "source_sha256": "5da45fa282094b9c2e4ad61cfa22b593298e667dcdda46bcd3ed2f20f5cf9e8d",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/evidence/ill-0076-640.webp",
+          "bytes": 11370,
+          "sha256": "aca871e26c1b4a17a98bc5a09a7be459adeb75f43fe5ee0565bfc2be7a8fb98b"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/evidence/ill-0076-960.webp",
+          "bytes": 24054,
+          "sha256": "8ec0d9618181afc6a7715ca1a9b6f0595d14066872e660b8c02caacc17d0547d"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/evidence/ill-0076-1536.webp",
+          "bytes": 56118,
+          "sha256": "b2659a4a423bb9fd460a6b8c2651065d48431d1ed6faed8292d7d27f834e964b"
+        }
+      ]
+    },
+    "pages/evidence/ill-0227": {
+      "source_path": "pages/evidence/ill-0227-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2034989,
+      "source_sha256": "a49df96a1154faf340dcb774af07b698f4de63d76bf912ad6fafe836334d40ee",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/evidence/ill-0227-640.webp",
+          "bytes": 18156,
+          "sha256": "344cc2177da0915b9d8430f921a44b43875c283c1fb4776f7705d7895bf9199f"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/evidence/ill-0227-960.webp",
+          "bytes": 36774,
+          "sha256": "c88af0ba0bf0a08e56a11d09095ac5d5f21f3734947ebbed190ca8f7fac8dae5"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/evidence/ill-0227-1536.webp",
+          "bytes": 78904,
+          "sha256": "c94514980f6fdae8e5d8e5c8934b44ce735970284567077f3d0f41eeeb22ee92"
+        }
+      ]
+    },
+    "pages/evidence/ill-0228": {
+      "source_path": "pages/evidence/ill-0228-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2264120,
+      "source_sha256": "553d3b0f9c5ebc514422cbca72de359efc8576703d29d2449c697021b534834f",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/evidence/ill-0228-640.webp",
+          "bytes": 21366,
+          "sha256": "1002173276946d59548bf752046d556cc9b1a613edb3b0ad928c0d19f2fbbde3"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/evidence/ill-0228-960.webp",
+          "bytes": 43532,
+          "sha256": "b1da7e199432bf8b0bbb8b426db15d2b2e3bb92c64c27ca0c174b3b3353072e6"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/evidence/ill-0228-1536.webp",
+          "bytes": 101906,
+          "sha256": "01292cbf90c3a6a87347a92491055dcaacefb141040a14537491a097539902ea"
+        }
+      ]
+    },
+    "pages/evidence/ill-0229": {
+      "source_path": "pages/evidence/ill-0229-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2026848,
+      "source_sha256": "b1f257c935478f86dcffc5dad0bab23e45712f77933f519ae3876e200c7c9ca1",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/evidence/ill-0229-640.webp",
+          "bytes": 18202,
+          "sha256": "f69f708249e81f9e17680916f15914bdcfef468c2b81b84cc2332102ebd1d533"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/evidence/ill-0229-960.webp",
+          "bytes": 34140,
+          "sha256": "ab6aba5e44d0250796b009ea1e2858b33e86b6ed4c578d9679649b0339e4945e"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/evidence/ill-0229-1536.webp",
+          "bytes": 70580,
+          "sha256": "5672eca5a316c5be2561e1a52cf1e28f02d686d22d61a151e55a00b54ffd7877"
+        }
+      ]
+    },
+    "pages/evidence/ill-0230": {
+      "source_path": "pages/evidence/ill-0230-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2139796,
+      "source_sha256": "aaf7c8cbbc9920c2a16793315bebb7a8ec4bf136220bfc427bab69ab0aa74062",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/evidence/ill-0230-640.webp",
+          "bytes": 14288,
+          "sha256": "47b99d895cb625fd6ac93c7125797aa57c5758de87285819c99b3667d076ed74"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/evidence/ill-0230-960.webp",
+          "bytes": 29630,
+          "sha256": "2ce10f6a18fb8a65f4a85fc0c3381a8252487ec6294b877dfa3b44808b44943b"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/evidence/ill-0230-1536.webp",
+          "bytes": 68288,
+          "sha256": "c748a08e803ce135a524a43f0b01205c234c7ebfb0c04e9f8ab48e2d21e245c6"
+        }
+      ]
+    },
+    "pages/evidence/ill-0231": {
+      "source_path": "pages/evidence/ill-0231-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2297161,
+      "source_sha256": "3fc0f3685a2d467e612cfbbd3c3702614cb5f0e4c12447de4d97321d3d5e1768",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/evidence/ill-0231-640.webp",
+          "bytes": 18944,
+          "sha256": "0a219ba3aa39086237a9ad19896796f8b4a132fff4eff66826b655d699ffa7e5"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/evidence/ill-0231-960.webp",
+          "bytes": 40956,
+          "sha256": "37038b9470f87ab60d4d3872be93de4263ea66227f98115b6c9842c2b4f9641f"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/evidence/ill-0231-1536.webp",
+          "bytes": 95058,
+          "sha256": "f0dec73b3e4fdbeb10da0fa2566787701de08d7a96a6007efba051a3e0a3ddb9"
+        }
+      ]
+    },
+    "pages/heritage/ill-0233": {
+      "source_path": "pages/heritage/ill-0233-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3200898,
+      "source_sha256": "1e01bc737a59753c56f28362989e7d4cef003ef343bec447afbcd8ae41894fbe",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/heritage/ill-0233-640.webp",
+          "bytes": 43146,
+          "sha256": "877c800f1eb1f8dc8f6b39be5265bf120beb55d42e0e5c6a229f9b1ecfc7c37b"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/heritage/ill-0233-960.webp",
+          "bytes": 96542,
+          "sha256": "b510e022d445900c12bfe44a5c94595729fac64d679cb0d9827f7a46c29011b5"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/heritage/ill-0233-1536.webp",
+          "bytes": 228770,
+          "sha256": "79d248dda59e3916b5e21089295939c72ee0466480995e1cd0baffe2c15fdf28"
+        }
+      ]
+    },
+    "pages/heritage/ill-0234": {
+      "source_path": "pages/heritage/ill-0234-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2801107,
+      "source_sha256": "14281901464a4fff5aa73904db58aa31d3505f62bda2f9335d52b61674e9508c",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/heritage/ill-0234-640.webp",
+          "bytes": 25222,
+          "sha256": "1f4bf4225ab6797e64d1a246c5855fb2675f12a3e73ca55276910f0a074fb331"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/heritage/ill-0234-960.webp",
+          "bytes": 55294,
+          "sha256": "49818dd0b92dee9c28d4ef9b5ac39f339c7492507c3102903f392b592ae7fd61"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/heritage/ill-0234-1536.webp",
+          "bytes": 136612,
+          "sha256": "3f080202e8d85cd10d83ba1ee08db715f16a23151fb37029cb4a54a92415738b"
+        }
+      ]
+    },
+    "pages/heritage/ill-0235": {
+      "source_path": "pages/heritage/ill-0235-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2932673,
+      "source_sha256": "2b2156fee2f03a4c599c3f3aed186fb3b600d3d9dc245bf05c85c9c6ef527699",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/heritage/ill-0235-640.webp",
+          "bytes": 34046,
+          "sha256": "1a3642996f02025bfc59f54cc7935ed6e5835dd40a43a191087bc0fe2caab637"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/heritage/ill-0235-960.webp",
+          "bytes": 78084,
+          "sha256": "7179052606d36dcf10fb957bb88f0b3347930f732057ee3d556ba1de1b12165a"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/heritage/ill-0235-1536.webp",
+          "bytes": 187904,
+          "sha256": "6b991188bbbdc6cc15e4d4083626e0cd26255158198f6fc05da5148ba3a689de"
+        }
+      ]
+    },
+    "pages/heritage/ill-0261": {
+      "source_path": "pages/heritage/ill-0261-source.png",
+      "source_width": 1024,
+      "source_height": 1536,
+      "source_bytes": 3683828,
+      "source_sha256": "89559f796736b4b5b001d2fb01e6fabd7ba99a70d065e11a9b195209febb3894",
+      "variants": [
+        {
+          "width": 640,
+          "height": 960,
+          "path": "pages/heritage/ill-0261-640.webp",
+          "bytes": 152532,
+          "sha256": "84aa508aa34ac076a2c9740e2b05488e333226c816ad478629a4491c943e8948"
+        },
+        {
+          "width": 960,
+          "height": 1440,
+          "path": "pages/heritage/ill-0261-960.webp",
+          "bytes": 315878,
+          "sha256": "d0c804bb2072d409d8064f7253fd41c1239378bbaaf43c33592a4c2c5f6b4983"
+        },
+        {
+          "width": 1024,
+          "height": 1536,
+          "path": "pages/heritage/ill-0261-1536.webp",
+          "bytes": 362302,
+          "sha256": "8e36f468a236deb430e27bbe6a514c499d839e09ac7cf3004b29f1a85fafe961"
+        }
+      ]
+    },
+    "pages/heritage/ill-0262": {
+      "source_path": "pages/heritage/ill-0262-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3404715,
+      "source_sha256": "011abc5f9e4b5580ac6ca763b9e395c1be103a219091797f15730e7bc0bf43f6",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/heritage/ill-0262-640.webp",
+          "bytes": 47404,
+          "sha256": "a11e7a0ecb3ec7fc112f56737bba700ab05c04fbb91d1bdfded7cce55ad3d700"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/heritage/ill-0262-960.webp",
+          "bytes": 107890,
+          "sha256": "cbfbd5aa98251ece50c30f1dadb98eeb76584ab502debbb61d20f6a3053aa37a"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/heritage/ill-0262-1536.webp",
+          "bytes": 271124,
+          "sha256": "bdeb730ead6b4029e055b7ae8affb656ae5c710e25255e6cff5b23515ef753b6"
+        }
+      ]
+    },
+    "pages/heritage/ill-0263": {
+      "source_path": "pages/heritage/ill-0263-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3088823,
+      "source_sha256": "3ed7bf4fa416d693356fa709651ca84f8f4bf53ebb6bd89a5efd04e4acf037cd",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/heritage/ill-0263-640.webp",
+          "bytes": 36530,
+          "sha256": "be83d9b9537f83a5fff333e120573b716305755a0fc8a8abb94bd820f69ecb96"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/heritage/ill-0263-960.webp",
+          "bytes": 80612,
+          "sha256": "5c12ca4e04735f16f50fb0dee3de9c9ab879fb6cb8cdc70983f5d02ef4488c56"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/heritage/ill-0263-1536.webp",
+          "bytes": 201748,
+          "sha256": "c77d8639499eba3c156abdc5a0028a41a8a085f00ea92817e64f0e6cca5e2659"
+        }
+      ]
+    },
+    "pages/learn/ill-0265": {
+      "source_path": "pages/learn/ill-0265-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2780071,
+      "source_sha256": "eac82e95656f85d24b7ab9a71283c8247cdc2fea1dce95aa181f2a7305caee59",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/learn/ill-0265-640.webp",
+          "bytes": 26794,
+          "sha256": "967153a63b4fb169b94af5a67f3c87c85932349d1e464f658cffcf99fc0e6702"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/learn/ill-0265-960.webp",
+          "bytes": 59182,
+          "sha256": "28d3f2b4a1e3b25f4dabfc0e73bb1b84711fefdaea8adb8b309d20e5d31bc573"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/learn/ill-0265-1536.webp",
+          "bytes": 142036,
+          "sha256": "91c911038d3ce11d38db638dbe81924389c0f361488e8bc6f463a4144ad77530"
+        }
+      ]
+    },
+    "pages/learn/ill-0266": {
+      "source_path": "pages/learn/ill-0266-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2770760,
+      "source_sha256": "c8fe8efac5a3c76db1515b43a452420ce75b5955aaf333a59ab0a3789c92bc05",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/learn/ill-0266-640.webp",
+          "bytes": 28286,
+          "sha256": "a936f58bc06c459e3b648bc1506f0deee4d0041b391973439dac61fdcfc489c3"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/learn/ill-0266-960.webp",
+          "bytes": 62558,
+          "sha256": "136ee91c684ca8d7e0db0b91dbe698cc172bfe26e91382a3fbaa32f54897334a"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/learn/ill-0266-1536.webp",
+          "bytes": 147324,
+          "sha256": "054af00c2733efdb69d4c71da68e4df4020b710a8afc1e3dace01cd9739971fb"
+        }
+      ]
+    },
+    "pages/learn/ill-0267": {
+      "source_path": "pages/learn/ill-0267-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2555028,
+      "source_sha256": "466ce051ff2cbd9d1551de83ad8d330b5a96351b859b02cb39e2246c311913fb",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/learn/ill-0267-640.webp",
+          "bytes": 21890,
+          "sha256": "ccebcc7887d1ae5d298ae6dec0b0efa46e789cebfaacae40572296f8ccda87b1"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/learn/ill-0267-960.webp",
+          "bytes": 45196,
+          "sha256": "513f060030e15b0ed7268cc29b7ef9364bac1c72b4d91a57a70bfa5a4306ea6a"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/learn/ill-0267-1536.webp",
+          "bytes": 101102,
+          "sha256": "3e30e7bdaeab7d737526d355a5fddec2748e1c1330ff8d3128291f8876f0e7d7"
+        }
+      ]
+    },
+    "pages/learn/ill-0368": {
+      "source_path": "pages/learn/ill-0368-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2449776,
+      "source_sha256": "54515095cce4362c62c4a72becb58b85a4d65d8b13aa5bc12b28dbd970397405",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/learn/ill-0368-640.webp",
+          "bytes": 14532,
+          "sha256": "625fbbe08e851190ad0a668d24c5dba742b2e26dc20c233d8060247e44a6609f"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/learn/ill-0368-960.webp",
+          "bytes": 29990,
+          "sha256": "53f827952fb01eea784882cba91ff4bb0091e98c99b48bae386e835441181835"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/learn/ill-0368-1536.webp",
+          "bytes": 65400,
+          "sha256": "15fa6d5b02804b624e6d8eb92bc08b57b3a74d59d609ea75341361af6f53d3de"
+        }
+      ]
+    },
+    "pages/learn/ill-0369": {
+      "source_path": "pages/learn/ill-0369-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2939530,
+      "source_sha256": "0fd3fb2a4a223ab23bd1b8bb689fcb84a63fb315f368aa86cce99074b7c81b14",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/learn/ill-0369-640.webp",
+          "bytes": 35224,
+          "sha256": "032c7156dd0887c4f8c5f30e767bff756b639aa5cf96d35a08887451fd9540b4"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/learn/ill-0369-960.webp",
+          "bytes": 77086,
+          "sha256": "8f6d8d8408557665b5b1e0f5a05eee58c895223c4184b92d3b17223c245780a7"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/learn/ill-0369-1536.webp",
+          "bytes": 185394,
+          "sha256": "aadbd4bf8f8c411faf6bac3e7acb12aab07595676b86a3c42624ee0c4526efe3"
+        }
+      ]
+    },
+    "pages/learn/ill-0370": {
+      "source_path": "pages/learn/ill-0370-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3188897,
+      "source_sha256": "1acd7fdfa99942518bb80e61f38a7bbd1d85fbe12ba1ddc31b6a9bc1fa9c4a27",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/learn/ill-0370-640.webp",
+          "bytes": 42642,
+          "sha256": "b2a1eb6dc853009c7080e7b4bbcfb1329938cdd81104b49a8a49feb85a5a40bf"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/learn/ill-0370-960.webp",
+          "bytes": 97502,
+          "sha256": "7f33722ad45dfb4510e056bf37aee9fd24c434de7d229433d1444311f6e6c3c1"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/learn/ill-0370-1536.webp",
+          "bytes": 242416,
+          "sha256": "7fdebc5cfa1d168744ea431ab3ab7053d695c8645c54eb9aa616a9b49cf02466"
+        }
+      ]
+    },
+    "pages/learn/ill-0371": {
+      "source_path": "pages/learn/ill-0371-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2633356,
+      "source_sha256": "8184dfc2ae62e743d11da4d8e167a1b863363c261638fa7e2c1d75bd7c99d0fa",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/learn/ill-0371-640.webp",
+          "bytes": 15264,
+          "sha256": "7a319c21f9ad536640bda570093991f611c623bf163b2376d6aaa89f7b48816e"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/learn/ill-0371-960.webp",
+          "bytes": 33342,
+          "sha256": "eafb06006e38fd66594564c8b588cf81bd5400ed008945d175e7af4b75a31158"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/learn/ill-0371-1536.webp",
+          "bytes": 88794,
+          "sha256": "24b9e2327001093b7f988497f7213dd39193aa1dfb99539402aebc160e83702d"
+        }
+      ]
+    },
+    "pages/learn/ill-0372": {
+      "source_path": "pages/learn/ill-0372-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2841369,
+      "source_sha256": "b7de00ee5a773b60dfdf48595c2578eb1939d579bdb86de0290054c6d00eb72e",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/learn/ill-0372-640.webp",
+          "bytes": 41026,
+          "sha256": "206d0a0ee0ef955d9045c8c6ae42bb9abf2c7e1d4d1ee31550511861f2798621"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/learn/ill-0372-960.webp",
+          "bytes": 90520,
+          "sha256": "a06567bbfe92efc3cdccd843a8b9afc8f2830331790fe56a99ffe57bb395d059"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/learn/ill-0372-1536.webp",
+          "bytes": 185306,
+          "sha256": "f7f3b709c0ea2007f03615c5756e5856b54e0b8dde2eb284271fa2772da0d1d1"
+        }
+      ]
+    },
+    "pages/learn/ill-0373": {
+      "source_path": "pages/learn/ill-0373-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2318487,
+      "source_sha256": "c883adef03bcd3e3fb6678b32a25fd37bffee6b81523da2cc7ca3a93b0a8e163",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/learn/ill-0373-640.webp",
+          "bytes": 23450,
+          "sha256": "320bd5f674cf5d4923efbc4ad7616c4904569bda8e5b37d263fd22e348521e20"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/learn/ill-0373-960.webp",
+          "bytes": 50226,
+          "sha256": "3b617176d7ea5ba3ac85381ef958c3f7b71459e25c2259e611cc9f81f2764127"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/learn/ill-0373-1536.webp",
+          "bytes": 100872,
+          "sha256": "5239d7ea9c80d34188bb15cdf9ba2b915668d1a9d5c640c1e74d10c12376bf18"
+        }
+      ]
+    },
+    "pages/library/ill-0375": {
+      "source_path": "pages/library/ill-0375-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2041819,
+      "source_sha256": "29dd7c44aeef350b6696b3579444ba619c1ed1e45886def598ef01d7d86ae219",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/library/ill-0375-640.webp",
+          "bytes": 16368,
+          "sha256": "f640e4aaa6676b8e1ba20147b7ce365e70e46510c57d6b6289853a35eeeac12f"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/library/ill-0375-960.webp",
+          "bytes": 34066,
+          "sha256": "d2e5889fe13ba5d60231394db97b070b0c4e76e6aa8d3746c7069ed2265b4a2c"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/library/ill-0375-1536.webp",
+          "bytes": 64056,
+          "sha256": "4d5324992690f007fa29569d8e5f1fd3d4c483d8d9bffd1b3601a669bacdb817"
+        }
+      ]
+    },
+    "pages/library/ill-0376": {
+      "source_path": "pages/library/ill-0376-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2215856,
+      "source_sha256": "6b45c0080054abfb51b352242285f035697a5d4a48c4428b3666f8cfdc52552f",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/library/ill-0376-640.webp",
+          "bytes": 17624,
+          "sha256": "d4ef58651b4c451a27927d70af54bc9eddefa7b863d9bc28cbfb4192b560f6a8"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/library/ill-0376-960.webp",
+          "bytes": 35232,
+          "sha256": "34574f0e94c952e18ab282039cc0c9dfb849e2cb82435bf28cf48b3dd257decd"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/library/ill-0376-1536.webp",
+          "bytes": 72226,
+          "sha256": "d5591b88b28f618ca5856289afdcf96c8bd81c00980f98fdbb980d38ed8a1291"
+        }
+      ]
+    },
+    "pages/library/ill-0499": {
+      "source_path": "pages/library/ill-0499-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2336164,
+      "source_sha256": "30dc0f8b54f0805a64925d7a2d68f2cb7d02a7f074acc7af1143d9bce4d35b60",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/library/ill-0499-640.webp",
+          "bytes": 12206,
+          "sha256": "24f65ea9fee9cbb9d0de8d2baa5f90fbbfbafdd7a11aef7a6ba8cf4ba45081bd"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/library/ill-0499-960.webp",
+          "bytes": 25216,
+          "sha256": "298cc454f2b8da16f61c1b167e293429d8000e81332e57866b708f505339170c"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/library/ill-0499-1536.webp",
+          "bytes": 59822,
+          "sha256": "5808072bf0a3ef44c2972aca8a00dde7947120fef0a66aad44b377572a3272b5"
+        }
+      ]
+    },
+    "pages/library/ill-0500": {
+      "source_path": "pages/library/ill-0500-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2181075,
+      "source_sha256": "022afd412c2cdaf6d5aeb8ccc8fb0adcff419838f7de455d66b5d22961d27413",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/library/ill-0500-640.webp",
+          "bytes": 18396,
+          "sha256": "2da6a43c3fd2948f7a241b09bd1539bd5450ec99e5c347290144827dd6792244"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/library/ill-0500-960.webp",
+          "bytes": 38740,
+          "sha256": "4f8624d24b946b28840b4de22cfabbbfab9f3369370a69b33c503c802343e7d6"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/library/ill-0500-1536.webp",
+          "bytes": 78966,
+          "sha256": "a9c52da7a0ddc4027e133ad0ef9842a43af25eb6ee516f962d9077d03477f0fe"
+        }
+      ]
+    },
+    "pages/library/ill-0528": {
+      "source_path": "pages/library/ill-0528-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2069837,
+      "source_sha256": "d7ebf30e2ec2d1ddaf15c3a2b539d9a3c079710fdf251854ea5d024c5358db57",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/library/ill-0528-640.webp",
+          "bytes": 17946,
+          "sha256": "baab9482b1c5f7505c0fbb3f10fa6a8b426662d9237738d8bb745fcd6c12c66c"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/library/ill-0528-960.webp",
+          "bytes": 35318,
+          "sha256": "d8f995dee538a4f33923f74568a5be9983a8bf2addbed5b2734378912460cafc"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/library/ill-0528-1536.webp",
+          "bytes": 69022,
+          "sha256": "de2de4eeb5cf06b342cfb8db18c655d7dc6c0db90f607119eb075deb06b81d1a"
+        }
+      ]
+    },
+    "pages/people/ill-0546": {
+      "source_path": "pages/people/ill-0546-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2816337,
+      "source_sha256": "2d8370311aa7ab344c79397fd94b37105f5cb2884ab3e54d332a79a831b7529a",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/people/ill-0546-640.webp",
+          "bytes": 25554,
+          "sha256": "5d83feba93e3f07da716c628efdf193e2c534a1fbbd6c494aae67a729aba582e"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/people/ill-0546-960.webp",
+          "bytes": 57750,
+          "sha256": "4b63c3889cd11e0e9de359ff4039a68afd123fc41bd9c115cb5824df31ddd6b5"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/people/ill-0546-1536.webp",
+          "bytes": 147608,
+          "sha256": "3ad1633f7f1ea2790e6fb2fb642ede8b9fff376a4b149a3328c3cc113a6bfbaf"
+        }
+      ]
+    },
+    "pages/people/ill-0708": {
+      "source_path": "pages/people/ill-0708-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2643525,
+      "source_sha256": "ebe7644993a6fb7690075cca866e44b2fee7d14390c2913eaebb0ff938cd01e3",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/people/ill-0708-640.webp",
+          "bytes": 19678,
+          "sha256": "e6c8ae62eda226ee320a1421eb96b921ac56e29ffcd6c81dcdb030bc9b5ef434"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/people/ill-0708-960.webp",
+          "bytes": 41704,
+          "sha256": "5e90cb879292ccd1112d4611b58bb8bb763e2a7bf111465db7bf0fa2a449df53"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/people/ill-0708-1536.webp",
+          "bytes": 100008,
+          "sha256": "a7b4824c29fcc3abb343eb3813b5e811ae83c6e92e7495f72697505957e44572"
+        }
+      ]
+    },
+    "pages/science/ill-0740": {
+      "source_path": "pages/science/ill-0740-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2518093,
+      "source_sha256": "df7607b63916ac0458047ed947bdbf8d765e98032df16070af7804196da76f37",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/science/ill-0740-640.webp",
+          "bytes": 41370,
+          "sha256": "bd90b1d1792c1a043c4f89cfa90ab0621402991bf45dc75855723337d15f0a86"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/science/ill-0740-960.webp",
+          "bytes": 86828,
+          "sha256": "34f136056e120d6bfde4e027a8b39c36291a816cd9f191021d588e5988245545"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/science/ill-0740-1536.webp",
+          "bytes": 169018,
+          "sha256": "7d6f9c402d2672a6da6c3c04d51154a6ccd1dac56492d2768e4af1cdaf30bc99"
+        }
+      ]
+    },
+    "pages/science/ill-0741": {
+      "source_path": "pages/science/ill-0741-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2360996,
+      "source_sha256": "ff2625028b85af4e63362971e988699ef1afe0251f1654249b1ab4666514a939",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/science/ill-0741-640.webp",
+          "bytes": 19848,
+          "sha256": "bd0bae0d757c65b925c08589f44e5ecd824e9c86c9f8350d7dad232ec4907bc9"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/science/ill-0741-960.webp",
+          "bytes": 41034,
+          "sha256": "07662c1be5b2cbe4e29699e9dd3d559bd8d90ad3ae849cff6932769c173f60e8"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/science/ill-0741-1536.webp",
+          "bytes": 89506,
+          "sha256": "46a5d9e792c6c355ae93bfb334a8cbbaee731d2796a73f648068541e8f8d522a"
+        }
+      ]
+    },
+    "pages/science/ill-0742": {
+      "source_path": "pages/science/ill-0742-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2484454,
+      "source_sha256": "39bbc4522e70bf0f56359383f0e7c2b3242738596e170ba119db7cc62c07a8d9",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/science/ill-0742-640.webp",
+          "bytes": 29328,
+          "sha256": "184ea0efc6370b203c19bea3039dbf0a98b25a3d9daaa03ed55aa8acc3eb55a5"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/science/ill-0742-960.webp",
+          "bytes": 64898,
+          "sha256": "4bd86f0d1619a1ed9e7c3f9be0dd5a0b885b4765d68645773e1351b4726c2f3e"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/science/ill-0742-1536.webp",
+          "bytes": 126556,
+          "sha256": "2bf3843023e37ef8a8068cf0368b6aba59abf093e6d6347b0a9dd270b2a44a9a"
+        }
+      ]
+    },
+    "pages/science/ill-0743": {
+      "source_path": "pages/science/ill-0743-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2962170,
+      "source_sha256": "3de797cd367e2bfb8a75017f0700873af8fe53da448d1f5ad6efebded243fc83",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/science/ill-0743-640.webp",
+          "bytes": 60126,
+          "sha256": "d0d482fc77e31c8a8b6c6518699723def3aebc71131618dd53eb4f9daf58befc"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/science/ill-0743-960.webp",
+          "bytes": 130486,
+          "sha256": "847277d43dbb52a6f982f3d65c47bd337be52e3ec3f6ed7fbc535fe3c1c83371"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/science/ill-0743-1536.webp",
+          "bytes": 256724,
+          "sha256": "466a6254d3e7e99b55dcb1bc717d202a268d2866187f9e42ccf80bdadee0f8dc"
+        }
+      ]
+    },
+    "pages/science/ill-0744": {
+      "source_path": "pages/science/ill-0744-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2642761,
+      "source_sha256": "e1872696180688a0b271eb50d50bf2dc417e6401b841075cefe9e10525bf7c4f",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/science/ill-0744-640.webp",
+          "bytes": 25368,
+          "sha256": "eba2f8ae6c112fc640bb871d26aedf66d974e121739ab82a3b2de74be62d87bd"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/science/ill-0744-960.webp",
+          "bytes": 53388,
+          "sha256": "1dc59b2b60b804646474cb2522df3e4388824dd18c07aaff544ba78d7bc5b25b"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/science/ill-0744-1536.webp",
+          "bytes": 120648,
+          "sha256": "bb0112559513c25c811f03faa52b8a116ff9872a68c6d63f5b322615d0d212ce"
+        }
+      ]
+    },
+    "pages/science/ill-0745": {
+      "source_path": "pages/science/ill-0745-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2835536,
+      "source_sha256": "a13c32ae206fd96cb9bbe44eb61e200b1fb3040beb9eb4199f798bf762ae8209",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/science/ill-0745-640.webp",
+          "bytes": 28478,
+          "sha256": "edd0ffb56ac1c94e9a7cd130d4742854dee9d9ee596b4330f616cdce1534837c"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/science/ill-0745-960.webp",
+          "bytes": 62826,
+          "sha256": "be5de873b9f9e04eb8996da4aeee95231794117500100a0e1c69881f4e8f219d"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/science/ill-0745-1536.webp",
+          "bytes": 150078,
+          "sha256": "70d8b21308d20139ea5dd4c2907f89846c633508aea9f64eba14b4583ed01b6b"
+        }
+      ]
+    },
+    "pages/science/ill-0746": {
+      "source_path": "pages/science/ill-0746-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2711178,
+      "source_sha256": "4be56327c497216d281f613dcfbda0af62ad7407e14b6e5af0d39be59a805ce9",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/science/ill-0746-640.webp",
+          "bytes": 29864,
+          "sha256": "dde0ac856e20fe4e7a03f46f28634b6b880225def95af6cf5f2d1271a76ab736"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/science/ill-0746-960.webp",
+          "bytes": 63630,
+          "sha256": "d3275e9e08c34d146ec4420a5c4f5222488e52caadeebe9b4c979dc02a8194a1"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/science/ill-0746-1536.webp",
+          "bytes": 145412,
+          "sha256": "7a43de06b3a4f39e4d2b1ff70c6db2b62193f9c46d0ebd0f63902ac80ab7cca6"
+        }
+      ]
+    },
+    "pages/science/ill-0747": {
+      "source_path": "pages/science/ill-0747-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2449793,
+      "source_sha256": "54d2812c649b0e6d5dcaa0fa76ead9e0736d90a909d1dbd3b90738889549731d",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/science/ill-0747-640.webp",
+          "bytes": 19220,
+          "sha256": "d8cbec0ac972fb0023c4c6cedbb5dc9fb166a1cc3a08cb13eb96b4fcd0b6f424"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/science/ill-0747-960.webp",
+          "bytes": 41282,
+          "sha256": "35ba75124a593594072479f9b2960ecc7dcb8d3208ce2e61ec96db7a43029e06"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/science/ill-0747-1536.webp",
+          "bytes": 95764,
+          "sha256": "88519951d76cd37722869a826db9e9ef5a77af40e23b3dcd67c8daca58bb84b4"
+        }
+      ]
+    },
+    "pages/science/ill-0748": {
+      "source_path": "pages/science/ill-0748-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2950588,
+      "source_sha256": "b8c4a528d2a5183506221493d5c6d9ad512d7c2eb82cc81d65a7e01d65056e36",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/science/ill-0748-640.webp",
+          "bytes": 42106,
+          "sha256": "d8531afd8356b96cf56d8cef0a6f5b8c64dde93ee0d1fc0d4b59550d457b033e"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/science/ill-0748-960.webp",
+          "bytes": 92812,
+          "sha256": "5aa79f7bd9ba7707209cc8cfa2e7420bbc669cca8b4ba1eb6dccfd2d92eaed63"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/science/ill-0748-1536.webp",
+          "bytes": 211562,
+          "sha256": "c137d5dddd1e1f358a3b191f4f25a180de63f28c587e87585b8ab89aa61c398d"
+        }
+      ]
+    },
+    "pages/science/ill-0749": {
+      "source_path": "pages/science/ill-0749-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 3082828,
+      "source_sha256": "cd26d8b7a42031f621236e4a883147abd35f48afa139cdc1076afb8c0911f8f7",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/science/ill-0749-640.webp",
+          "bytes": 41426,
+          "sha256": "78a76b1edf5b6e4348f71ffe4b8c53e0dee2d46bfb3c9675a482a732e00443ba"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/science/ill-0749-960.webp",
+          "bytes": 93168,
+          "sha256": "fa5593bfd9f6d5bdc40a7838b2660f3c0bcc1346b71afea9aee5a1bd10cea60c"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/science/ill-0749-1536.webp",
+          "bytes": 220348,
+          "sha256": "d44cec9f8a52f73fdd9a31853b4d23f517597a1219a13f4842f3ef6d024c29da"
+        }
+      ]
+    },
+    "pages/science/ill-0750": {
+      "source_path": "pages/science/ill-0750-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2379704,
+      "source_sha256": "00a3a0581b0e57a8a38646624b79dd4fc0399e44708893dd001792ce9eacce98",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/science/ill-0750-640.webp",
+          "bytes": 34214,
+          "sha256": "02f55e6d6a966075283e78c2a49bb469e22c728db238535d5d5f8ec501fe98a5"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/science/ill-0750-960.webp",
+          "bytes": 72192,
+          "sha256": "fb0af7905687b96b59945b3017338724b2e68eac0f42a1bbdc477bd6b8e85666"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/science/ill-0750-1536.webp",
+          "bytes": 139784,
+          "sha256": "2a6a0fa3bb20a2e3be5bc64a649ed8f2fd8d0b7c4479c8e59b751c293deabeca"
+        }
+      ]
+    },
+    "pages/science/ill-0781": {
+      "source_path": "pages/science/ill-0781-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2506234,
+      "source_sha256": "d2f992c304e50d243a493280b322e8e96819c83d3341a4fd54f91398fe215394",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/science/ill-0781-640.webp",
+          "bytes": 34572,
+          "sha256": "8f812b2fdeed925612acee4a4da9682fdbfef0fd933ca34644e044f56fcd642c"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/science/ill-0781-960.webp",
+          "bytes": 75644,
+          "sha256": "0ff26ddd4d0625039eead18fe9d708a747f9ef0462cecc95c08f4f61fd11ffb3"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/science/ill-0781-1536.webp",
+          "bytes": 145666,
+          "sha256": "048905c713cf83f0992838e3b1b7683a247ff9b9325c2aa45f5e3acb78a98de6"
+        }
+      ]
+    },
+    "pages/science/ill-0782": {
+      "source_path": "pages/science/ill-0782-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2131308,
+      "source_sha256": "8d80ba16bd5b45d26bfcb7bbbee215d8997de76571fa2fff315eb6e632b9fcf2",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/science/ill-0782-640.webp",
+          "bytes": 23804,
+          "sha256": "63e7c1560429afbf26110da0d0338c11485deaa773fcff3affc40de6a1d90204"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/science/ill-0782-960.webp",
+          "bytes": 47868,
+          "sha256": "3b4a76e5cbc384b6dea3d0535fd52e9f0f0f07c2c9f20a7aad8a03f95bff7ef0"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/science/ill-0782-1536.webp",
+          "bytes": 90756,
+          "sha256": "f03d297c2b630a4852ac8a1e620d85e009de0d16989f8dd3cd1f81e885c095f3"
+        }
+      ]
+    },
+    "pages/science/ill-0863": {
+      "source_path": "pages/science/ill-0863-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2790428,
+      "source_sha256": "f55554e91e5ff41cd225c38dd084bf3d8c6f99bd30858021002593675753324e",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/science/ill-0863-640.webp",
+          "bytes": 23572,
+          "sha256": "61a9f7a7d98410e41b9b1853b00e593e4e9f87493ffce4e9b0049f64387c26fe"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/science/ill-0863-960.webp",
+          "bytes": 52454,
+          "sha256": "063b4a28f6205554a91d29d537d2391578c4c68cb1297c211619f870adc9bbf9"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/science/ill-0863-1536.webp",
+          "bytes": 131812,
+          "sha256": "8134831153fdce59ea6030a4c926a3538e63975c41ea8aa202450d4e293831e8"
+        }
+      ]
+    },
+    "pages/science/ill-0864": {
+      "source_path": "pages/science/ill-0864-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2971358,
+      "source_sha256": "afdea79ccc9ca897808a65f6bdcee24d2cd75785024b2510ae08fd77bfc4e1ca",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/science/ill-0864-640.webp",
+          "bytes": 38626,
+          "sha256": "93a0bd610599c948ca79751f8740341fc514ea0353e2ee70e1a8c4d3e70876fb"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/science/ill-0864-960.webp",
+          "bytes": 86464,
+          "sha256": "646c3e7d45d86db587fd8825604b7ad7141d33f82ad022cb3ded14b96ced942b"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/science/ill-0864-1536.webp",
+          "bytes": 205004,
+          "sha256": "e9eb61193b86e0fee45392d96e32efa7b2535048e0741c8edcac1b53c58aca19"
+        }
+      ]
+    },
+    "pages/science/ill-0865": {
+      "source_path": "pages/science/ill-0865-source.png",
+      "source_width": 1536,
+      "source_height": 1024,
+      "source_bytes": 2338995,
+      "source_sha256": "fcb29ec6ded38a94df3ccd4affd588e420d5fd78055739823d263d5904afb4e5",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "path": "pages/science/ill-0865-640.webp",
+          "bytes": 26454,
+          "sha256": "064aa524e8ad87be2e9b1d74eb8e9ce3f4d30ad589e3532f82b883f2f362c766"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "path": "pages/science/ill-0865-960.webp",
+          "bytes": 54142,
+          "sha256": "071a555d2d6570a8f175d53a3d8d78a741cb8a35d679f3af55d34ad596fc71b8"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "pages/science/ill-0865-1536.webp",
+          "bytes": 120702,
+          "sha256": "2be102d1293949559b0b277f592f6a9b29461538543713e0eb36276071912a2e"
+        }
+      ]
+    },
+    "pages/science/ill-0896": {
+      "source_path": "pages/science/ill-0896-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2519308,
+      "source_sha256": "446320e344959fb2f56c89e49bc690b32b31bd379636fd2dcd3de87dd355648b",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "pages/science/ill-0896-640.webp",
+          "bytes": 40914,
+          "sha256": "013cf267ca60903340d9bd0179ff2b001983d9128d4e36d2142a9199b0f5a948"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "pages/science/ill-0896-960.webp",
+          "bytes": 83178,
+          "sha256": "259f411076005c51c42974ca3905b3b01dc365f1e80ceaabefd7e6239cf46c0e"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "pages/science/ill-0896-1536.webp",
+          "bytes": 160562,
+          "sha256": "889628e2218779bb25cd61fa438b18a9cf3bc1a4b3da29f2b6a32a3dbe9ce0f6"
+        }
+      ]
+    },
+    "people/expert-detail": {
+      "source_path": "people/expert-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2960422,
+      "source_sha256": "0757134b5472c8e80fd547a934e91d63ee3d971bc7aca8ba4c790e0e6de9ee5f",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "people/expert-detail-640.webp",
+          "bytes": 50306,
+          "sha256": "708ba7cf5bb05ebef428c138188d6971a6cfc8cb7a4be0ab17c72aca26591045"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "people/expert-detail-960.webp",
+          "bytes": 111038,
+          "sha256": "4d2b06151803368af65883260024e0d803874d530985d5a9edc24de52d3b42f9"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "people/expert-detail-1536.webp",
+          "bytes": 237712,
+          "sha256": "1d3c741b2254e51a8e6af08092f486346d49f3d6f348c02b91ce02c39ad889c7"
+        }
+      ]
+    },
+    "people/institution-detail": {
+      "source_path": "people/institution-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2983772,
+      "source_sha256": "78f8f73b85b79d321777cfc4721da9c520173a52930d3782b60b82c594d305ee",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "people/institution-detail-640.webp",
+          "bytes": 56824,
+          "sha256": "73c2bcd1b98efd63a5ef508ff7ebaac8e7beb2e438651c339e07feebd0adc89d"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "people/institution-detail-960.webp",
+          "bytes": 123674,
+          "sha256": "c31a1be87f0c69f27286eea5da195b2915bee3c27cb1f7918f8495d004f98a6b"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "people/institution-detail-1536.webp",
+          "bytes": 260372,
+          "sha256": "56698eb82dd62b50b4e704acddddcd2bed1bf02cff54a92a3cc541ef78038ca0"
+        }
+      ]
+    },
+    "people/people-hub": {
+      "source_path": "people/people-hub-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 3075851,
+      "source_sha256": "066c4181d358161849eca48704600f00b731ab692c2d853135633effa27250c5",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "people/people-hub-640.webp",
+          "bytes": 51202,
+          "sha256": "ef4f15f6405ee790bcc213a4cf87e39676ec275cde9a3f49b19dc006a60896a7"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "people/people-hub-960.webp",
+          "bytes": 117362,
+          "sha256": "e1dc48122f6725b3a9cdf4c0082c9b8b520e9be3c624e1189cd0bc30a9da24e9"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "people/people-hub-1536.webp",
+          "bytes": 256238,
+          "sha256": "2251701d4ee213368bb027db6c580b53807179aff59b4efdb819af956228f6f5"
+        }
+      ]
+    },
+    "science/process-detail": {
+      "source_path": "science/process-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2534646,
+      "source_sha256": "75eea1d21b4402dddb4535cbcf232e2d6d0bbe8de4c7235cd8fc7e06d7d3071a",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "science/process-detail-640.webp",
+          "bytes": 38416,
+          "sha256": "43820d9b160f51bbd54fe287db9d2f3d1fa061dd35368cde9279966904a88106"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "science/process-detail-960.webp",
+          "bytes": 82954,
+          "sha256": "d10f673e3a754a8eb3fdc417bc1dbe72b9369ddf04a42bc6f77132340684dacd"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "science/process-detail-1536.webp",
+          "bytes": 169214,
+          "sha256": "c011ce0da565014adcface735cd8259d66ae7c34d994e200f49a0c58531c7c4c"
+        }
+      ]
+    },
+    "science/science-hub": {
+      "source_path": "science/science-hub-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2934240,
+      "source_sha256": "df38aeb4bfb0b8f70d5b8fd2a358c5e8e50963b5a19bac197d8d22ba9209b3a5",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "science/science-hub-640.webp",
+          "bytes": 62136,
+          "sha256": "e8d7960fc120ca381435cf9a57521f1ab3c651ee14a5d118e76f6e1515d25954"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "science/science-hub-960.webp",
+          "bytes": 130976,
+          "sha256": "f223686e775b851a2d2e653baae8f84d150e93056305775553537706396551ba"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "science/science-hub-1536.webp",
+          "bytes": 254830,
+          "sha256": "b03c560212257c80a8e679990f4409f8ebd9c8f3bda338134a0a5c29338c9c54"
+        }
+      ]
+    },
+    "science/sensory-detail": {
+      "source_path": "science/sensory-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2509543,
+      "source_sha256": "f9854c267e23cf99aa3728d7266c6b548b6377710bd438adedf0e9c75f7dbf2a",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "science/sensory-detail-640.webp",
+          "bytes": 37250,
+          "sha256": "a3d7f30920177394d15579696914a827ede80cdf07fcbf01617fbddbfd51513d"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "science/sensory-detail-960.webp",
+          "bytes": 78412,
+          "sha256": "e5f7df501f2215ed3e5304d5c0344a53edf720857441475e3a594e22910396b8"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "science/sensory-detail-1536.webp",
+          "bytes": 159806,
+          "sha256": "26a8c417d1194320e016af70683c3cb352bb8bdd7d46e59b9eff54604c169763"
+        }
+      ]
+    },
+    "science/study-detail": {
+      "source_path": "science/study-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2383425,
+      "source_sha256": "459acde3af1cf028e9dcbad0c83934b0469cc2a87ba62fc993973d624700a1c2",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "science/study-detail-640.webp",
+          "bytes": 29644,
+          "sha256": "ee234330371c6b136d9e377607127e7e4c22f1a06970a5ec1174e671f864df07"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "science/study-detail-960.webp",
+          "bytes": 59010,
+          "sha256": "2dcb719caef0fc2650e7f5e541f7a36165f0e5bde6c415f7c3c32c6da2452751"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "science/study-detail-1536.webp",
+          "bytes": 121190,
+          "sha256": "e805561fd91e2e6946c646ff7e47910cc08bb967f14fff9999a31cca73ecaa3b"
+        }
+      ]
+    },
+    "science/variety-detail": {
+      "source_path": "science/variety-detail-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 2633167,
+      "source_sha256": "5b54e1e5880ac5b3fe6698e72ef2a20062b41a6adc58b61f58c49da02c4abc98",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "science/variety-detail-640.webp",
+          "bytes": 37732,
+          "sha256": "1ae343cc7690f7598733d81d0521d9e46b205d6127bd72f8ff2ed406074b178f"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "science/variety-detail-960.webp",
+          "bytes": 82910,
+          "sha256": "6707ae4d8dd417b5d7c150db8b8c6af4fa545b3a12d09e4dc4bfb4757250e79f"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "science/variety-detail-1536.webp",
+          "bytes": 170190,
+          "sha256": "3dc4637c3103b1bc59ded66a8954482faecefa21fa01fe4198f4080696e03e09"
+        }
+      ]
+    },
+    "search/search-hub": {
+      "source_path": "search/search-hub-source.png",
+      "source_width": 1448,
+      "source_height": 1086,
+      "source_bytes": 3144882,
+      "source_sha256": "e21f7920244ccff19308f37296f12f384b136de185cbd6509afc29618f7f782b",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "path": "search/search-hub-640.webp",
+          "bytes": 53098,
+          "sha256": "3c05c076d3321d55162d92cde9b97c6b448fd337f320d829cd3b54cfeda517aa"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "path": "search/search-hub-960.webp",
+          "bytes": 129254,
+          "sha256": "a5b5d8503e0a5675ac1d082289cdec9768a18848d11795247874ae3842fad4c1"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "search/search-hub-1536.webp",
+          "bytes": 284120,
+          "sha256": "65de037fc5c0aebf4456b13b1f482ccde270b3cfe54ab11c2f4d963bf2edf88f"
+        }
+      ]
+    }
+  }
+}

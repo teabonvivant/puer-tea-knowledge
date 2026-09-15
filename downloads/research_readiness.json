@@ -1,0 +1,234 @@
+{
+  "generated_at": "2026-08-12T21:58:25+00:00",
+  "score": "10/10",
+  "passed": 10,
+  "total": 10,
+  "release_ready": true,
+  "status": "RELEASE_READY",
+  "criteria": [
+    {
+      "id": "R01",
+      "title": "真實全文完整性與跨格式驗證",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/verification.json",
+        "data/08_reports/fulltext_inventory.csv"
+      ],
+      "details": {
+        "fulltext": 139,
+        "eligible_canonical_works": 122,
+        "source_domains": 7,
+        "format_counts": {
+          "FULL_PDF": 32,
+          "FULL_TRANSCRIPT": 1,
+          "FULL_HTML": 10,
+          "FULL_TEXT": 95,
+          "FULL_EPUB": 1
+        },
+        "traceability_missing": []
+      },
+      "note": ""
+    },
+    {
+      "id": "R02",
+      "title": "逐文件、chunk 與 claim 可追溯",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/citations.csv",
+        "data/08_reports/verification.json"
+      ],
+      "details": {
+        "unlocated_chunks": 0,
+        "claims": 798,
+        "claim_evidence": 798
+      },
+      "note": ""
+    },
+    {
+      "id": "R03",
+      "title": "官方標準、法規及政府／國際組織全文",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/bibliographic_records.csv",
+        "data/08_reports/fulltext_inventory.csv"
+      ],
+      "details": {
+        "official_or_standard_fulltext": 1,
+        "standard_numbers": [
+          "DB5308/T 58-2020"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "R04",
+      "title": "山頭／村寨地理名稱、來源、層級、座標及海拔",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/06_database_exports/places.jsonl",
+        "data/08_reports/places.csv",
+        "data/08_reports/place_evidence.csv",
+        "data/08_reports/relationships.csv"
+      ],
+      "details": {
+        "places": 65,
+        "name_source_admin": 65,
+        "coordinates": 52,
+        "hierarchy": 64,
+        "altitude": 2,
+        "field_evidence_records": 411,
+        "field_evidence_gaps": []
+      },
+      "note": ""
+    },
+    {
+      "id": "R05",
+      "title": "100 位經獨立來源核實的普洱茶專家",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/experts_100.csv",
+        "data/08_reports/expert_verification_audit.csv",
+        "data/08_reports/expert_evidence.csv",
+        "data/08_reports/expert_works.csv",
+        "data/08_reports/expert_identity_conflicts.csv"
+      ],
+      "details": {
+        "verified_experts": 256,
+        "fully_evidenced_verified_experts": 256,
+        "target": 100,
+        "structured_assessments": 4871,
+        "missing_requirement_counts": {
+          "three_unique_confirmed_outputs": 4489,
+          "explicit_puerh_expertise": 4544,
+          "identity_profile": 4167,
+          "independent_source_families": 4167,
+          "accessible_cross_verified_puerh_content": 4280,
+          "stable_identifier": 725,
+          "orcid_conflict": 1
+        }
+      },
+      "note": ""
+    },
+    {
+      "id": "R06",
+      "title": "電子書、實際 OCR 與有時間碼逐字稿",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/electronic_books_fulltext.csv",
+        "data/08_reports/ocr_audit.csv",
+        "data/08_reports/timed_transcripts.csv",
+        "data/08_reports/fulltext_inventory.csv"
+      ],
+      "details": {
+        "fulltext_books_or_scans": 4,
+        "actual_ocr_fulltext": 1,
+        "actual_ocr_document_ids": [
+          "DOC-000395"
+        ],
+        "full_transcripts": 1,
+        "timecoded_transcript_document_ids": [
+          "DOC-000396"
+        ],
+        "unvalidated_transcript_records": 0
+      },
+      "note": ""
+    },
+    {
+      "id": "R07",
+      "title": "研究書目識別碼、摘要及關鍵詞完整度",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/bibliographic_records.csv"
+      ],
+      "details": {
+        "scholarly_fulltext": 129,
+        "with_identifier": 128,
+        "with_abstract": 127,
+        "with_keywords": 122
+      },
+      "note": ""
+    },
+    {
+      "id": "R08",
+      "title": "Claims 原子化、主詞解析及衝突語義",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/claim_comparison_candidates.csv",
+        "data/08_reports/conflicting_claims.csv"
+      ],
+      "details": {
+        "claims": 798,
+        "resolution_rate": 0.9674185463659147,
+        "evidence_relations": [
+          "reports"
+        ],
+        "reference_or_footer_noise": []
+      },
+      "note": ""
+    },
+    {
+      "id": "R09",
+      "title": "跨主題正向檢索、對抗測試與安全拒答",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/retrieval_evaluation.csv",
+        "data/08_reports/retrieval_evaluation.md"
+      ],
+      "details": {
+        "questions": 36,
+        "all_pass": true,
+        "adversarial_questions": 10,
+        "adversarial_all_pass": true,
+        "positive_topic_coverage": {
+          "mountain_or_village": true,
+          "expert": true,
+          "processing": true,
+          "cultivar": true,
+          "safety": true,
+          "history_or_ebook": true,
+          "standards_or_regulation": true
+        }
+      },
+      "note": ""
+    },
+    {
+      "id": "R10",
+      "title": "PostgreSQL／pgvector 混合檢索、飽和度、恢復及可持續運維",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "docker-compose.yml",
+        "src/puer_kb/postgres_runtime.py",
+        "data/08_reports/postgres_pgvector_runtime.json",
+        "data/08_reports/saturation_report.json",
+        "data/08_reports/restore_drill.json",
+        "data/08_reports/test_run.json"
+      ],
+      "details": {
+        "docker_pgvector": true,
+        "postgres_runtime": true,
+        "runtime_kind": "PGlite PostgreSQL WASM single-user validation",
+        "postgres_version": "PostgreSQL 18.3 (PGlite 0.5.4) on wasm32-unknown-linux-gnu, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+        "production_server_validated": false,
+        "pgvector_version": "0.8.1",
+        "indexed_rows": 4300,
+        "vector_runtime": true,
+        "max_discovery_round": 3,
+        "saturation_status": "stage_saturated",
+        "restore_drill": true,
+        "crawl_jobs": 7,
+        "crawl_events": 100
+      },
+      "note": ""
+    }
+  ]
+}

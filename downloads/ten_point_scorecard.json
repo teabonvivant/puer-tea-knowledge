@@ -1,0 +1,650 @@
+{
+  "generated_at": "2026-08-12T21:58:25+00:00",
+  "engineering_score": "10/10",
+  "passed": 10,
+  "total": 10,
+  "engineering_status": "PASS",
+  "status": "RELEASE_READY",
+  "criteria": [
+    {
+      "id": "P01",
+      "title": "資料模型、遷移及固定 ID",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "migrations/001_initial.sql",
+        "data/puer_kb.sqlite3"
+      ],
+      "details": {
+        "table_count": 51,
+        "required_table_count": 33,
+        "invalid_document_ids": []
+      },
+      "note": ""
+    },
+    {
+      "id": "P02",
+      "title": "來源矩陣、搜尋查詢及政策記錄",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "config/sources.yaml",
+        "config/search_terms.yaml",
+        "data/08_reports/source_catalog.csv",
+        "data/08_reports/search_queries.csv"
+      ],
+      "details": {
+        "sources": 15,
+        "source_policies": 15,
+        "search_queries": 33
+      },
+      "note": ""
+    },
+    {
+      "id": "P03",
+      "title": "全文狀態、權利邊界、相關性隔離及不誤算",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/fulltext_inventory.csv",
+        "data/08_reports/restricted_items.csv",
+        "data/08_reports/rights_review.csv",
+        "data/08_reports/relevance_review.csv"
+      ],
+      "details": {
+        "fulltext": 139,
+        "eligible_fulltext": 126,
+        "missing_fulltext_provenance": [],
+        "missing_relevance_fields": [],
+        "documents_without_rights_record": 0,
+        "restricted_items": 53
+      },
+      "note": ""
+    },
+    {
+      "id": "P04",
+      "title": "原始檔、SHA-256、版本及可核對備份",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/verification.json",
+        "data/99_backup_manifest/backup_manifest.json",
+        "data/99_backup_manifest/original_files_manifest-sha256.txt"
+      ],
+      "details": {
+        "checked_fulltext": 139,
+        "fulltext": 139,
+        "document_versions": 154,
+        "backup": {
+          "status": "verified",
+          "ok": true,
+          "checked": 338,
+          "errors": []
+        }
+      },
+      "note": ""
+    },
+    {
+      "id": "P05",
+      "title": "PDF、HTML、EPUB 及誠實 OCR 分支",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "src/puer_kb/extraction.py",
+        "src/puer_kb/ocr.py",
+        "src/puer_kb/cli/main.py",
+        "data/08_reports/ocr_audit.csv"
+      ],
+      "details": {
+        "format_counts": {
+          "FULL_PDF": 32,
+          "FULL_HTML": 10,
+          "FULL_EPUB": 1,
+          "FULL_TEXT": 95,
+          "FULL_TRANSCRIPT": 1
+        },
+        "ocr_audit_exists": true
+      },
+      "note": "OCR_REQUIRED、OCR_FAILED 與完成 OCR 分開記錄；只有保存逐頁圖像、原始 OCR、頁面信心與衍生 chunks 的真實文件才算完成。"
+    },
+    {
+      "id": "P06",
+      "title": "主題、別名、實體、工藝及關係圖",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "src/puer_kb/entities.py",
+        "data/08_reports/document_topics.csv",
+        "data/08_reports/relationships.csv",
+        "data/08_reports/topics.csv"
+      ],
+      "details": {
+        "topics": 16,
+        "document_topic_links": 1058,
+        "relationships": 2627,
+        "document_entities": 454,
+        "processes": 30,
+        "organizations": 14,
+        "expert_aliases": 7375,
+        "place_aliases": 96,
+        "tea_varieties": 15
+      },
+      "note": ""
+    },
+    {
+      "id": "P07",
+      "title": "Claims、引用定位及研究設計標記",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "src/puer_kb/claims.py",
+        "data/08_reports/citations.csv",
+        "data/08_reports/bibliographic_records.csv",
+        "data/08_reports/claim_comparison_candidates.csv",
+        "data/08_reports/conflicting_claims.csv"
+      ],
+      "details": {
+        "claims": 798,
+        "claim_evidence": 798,
+        "unresolved_claims": 26,
+        "claim_noise": 0,
+        "evidence_relations": [
+          "reports"
+        ],
+        "citations": 154,
+        "study_design_records": 152,
+        "located_chunks": 5212,
+        "chunks": 5212
+      },
+      "note": ""
+    },
+    {
+      "id": "P08",
+      "title": "定位檢索、對抗問題、canonical 去重及有引用回答",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/retrieval_evaluation.csv",
+        "data/08_reports/retrieval_evaluation.md",
+        "data/07_ai_index/index_manifest.json"
+      ],
+      "details": {
+        "evaluation_questions": 36,
+        "evaluation_all_pass": true,
+        "canonical_results_unique": true,
+        "safe_no_result_tests": 10,
+        "ask_citations": 3
+      },
+      "note": ""
+    },
+    {
+      "id": "P09",
+      "title": "CLI 及 HTTP API 可運行",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "src/puer_kb/cli/main.py",
+        "src/puer_kb/api/app.py",
+        "data/08_reports/api_smoke.json"
+      ],
+      "details": {
+        "api_checks": [
+          {
+            "path": "/puer-tea-knowledge/health",
+            "method": "GET",
+            "status": 200,
+            "ok": true,
+            "has_json": true
+          },
+          {
+            "path": "/puer-tea-knowledge/documents",
+            "method": "GET",
+            "status": 200,
+            "ok": true,
+            "has_json": true
+          },
+          {
+            "path": "/puer-tea-knowledge/documents/DOC-000001",
+            "method": "GET",
+            "status": 200,
+            "ok": true,
+            "has_json": true
+          },
+          {
+            "path": "/puer-tea-knowledge/experts",
+            "method": "GET",
+            "status": 200,
+            "ok": true,
+            "has_json": true
+          },
+          {
+            "path": "/puer-tea-knowledge/experts/PER-000001",
+            "method": "GET",
+            "status": 200,
+            "ok": true,
+            "has_json": true
+          },
+          {
+            "path": "/puer-tea-knowledge/places",
+            "method": "GET",
+            "status": 200,
+            "ok": true,
+            "has_json": true
+          },
+          {
+            "path": "/puer-tea-knowledge/places/PLC-000001",
+            "method": "GET",
+            "status": 200,
+            "ok": true,
+            "has_json": true
+          },
+          {
+            "path": "/puer-tea-knowledge/reports/acquisition",
+            "method": "GET",
+            "status": 200,
+            "ok": true,
+            "has_json": true
+          },
+          {
+            "path": "/puer-tea-knowledge/search",
+            "method": "POST",
+            "status": 200,
+            "ok": true,
+            "has_json": true
+          },
+          {
+            "path": "/puer-tea-knowledge/ask",
+            "method": "POST",
+            "status": 200,
+            "ok": true,
+            "has_json": true
+          }
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "P10",
+      "title": "測試、crawl 稽核、報告、匯出及可持續運維",
+      "status": "PASS",
+      "score": 1,
+      "evidence": [
+        "data/08_reports/test_run.json",
+        "data/08_reports/coverage_metrics.json",
+        "data/08_reports/restore_drill.json",
+        "data/06_database_exports/puer_kb.sql",
+        "README.md"
+      ],
+      "details": {
+        "tests": 33,
+        "test_failures": 0,
+        "test_errors": 0,
+        "crawl_jobs": 7,
+        "crawl_events": 100,
+        "sql_export_exists": true,
+        "restore_drill_exists": true
+      },
+      "note": ""
+    }
+  ],
+  "research_readiness": {
+    "generated_at": "2026-08-12T21:58:25+00:00",
+    "score": "10/10",
+    "passed": 10,
+    "total": 10,
+    "release_ready": true,
+    "status": "RELEASE_READY",
+    "criteria": [
+      {
+        "id": "R01",
+        "title": "真實全文完整性與跨格式驗證",
+        "status": "PASS",
+        "score": 1,
+        "evidence": [
+          "data/08_reports/verification.json",
+          "data/08_reports/fulltext_inventory.csv"
+        ],
+        "details": {
+          "fulltext": 139,
+          "eligible_canonical_works": 122,
+          "source_domains": 7,
+          "format_counts": {
+            "FULL_PDF": 32,
+            "FULL_TRANSCRIPT": 1,
+            "FULL_HTML": 10,
+            "FULL_TEXT": 95,
+            "FULL_EPUB": 1
+          },
+          "traceability_missing": []
+        },
+        "note": ""
+      },
+      {
+        "id": "R02",
+        "title": "逐文件、chunk 與 claim 可追溯",
+        "status": "PASS",
+        "score": 1,
+        "evidence": [
+          "data/08_reports/citations.csv",
+          "data/08_reports/verification.json"
+        ],
+        "details": {
+          "unlocated_chunks": 0,
+          "claims": 798,
+          "claim_evidence": 798
+        },
+        "note": ""
+      },
+      {
+        "id": "R03",
+        "title": "官方標準、法規及政府／國際組織全文",
+        "status": "PASS",
+        "score": 1,
+        "evidence": [
+          "data/08_reports/bibliographic_records.csv",
+          "data/08_reports/fulltext_inventory.csv"
+        ],
+        "details": {
+          "official_or_standard_fulltext": 1,
+          "standard_numbers": [
+            "DB5308/T 58-2020"
+          ]
+        },
+        "note": ""
+      },
+      {
+        "id": "R04",
+        "title": "山頭／村寨地理名稱、來源、層級、座標及海拔",
+        "status": "PASS",
+        "score": 1,
+        "evidence": [
+          "data/06_database_exports/places.jsonl",
+          "data/08_reports/places.csv",
+          "data/08_reports/place_evidence.csv",
+          "data/08_reports/relationships.csv"
+        ],
+        "details": {
+          "places": 65,
+          "name_source_admin": 65,
+          "coordinates": 52,
+          "hierarchy": 64,
+          "altitude": 2,
+          "field_evidence_records": 411,
+          "field_evidence_gaps": []
+        },
+        "note": ""
+      },
+      {
+        "id": "R05",
+        "title": "100 位經獨立來源核實的普洱茶專家",
+        "status": "PASS",
+        "score": 1,
+        "evidence": [
+          "data/08_reports/experts_100.csv",
+          "data/08_reports/expert_verification_audit.csv",
+          "data/08_reports/expert_evidence.csv",
+          "data/08_reports/expert_works.csv",
+          "data/08_reports/expert_identity_conflicts.csv"
+        ],
+        "details": {
+          "verified_experts": 256,
+          "fully_evidenced_verified_experts": 256,
+          "target": 100,
+          "structured_assessments": 4871,
+          "missing_requirement_counts": {
+            "three_unique_confirmed_outputs": 4489,
+            "explicit_puerh_expertise": 4544,
+            "identity_profile": 4167,
+            "independent_source_families": 4167,
+            "accessible_cross_verified_puerh_content": 4280,
+            "stable_identifier": 725,
+            "orcid_conflict": 1
+          }
+        },
+        "note": ""
+      },
+      {
+        "id": "R06",
+        "title": "電子書、實際 OCR 與有時間碼逐字稿",
+        "status": "PASS",
+        "score": 1,
+        "evidence": [
+          "data/08_reports/electronic_books_fulltext.csv",
+          "data/08_reports/ocr_audit.csv",
+          "data/08_reports/timed_transcripts.csv",
+          "data/08_reports/fulltext_inventory.csv"
+        ],
+        "details": {
+          "fulltext_books_or_scans": 4,
+          "actual_ocr_fulltext": 1,
+          "actual_ocr_document_ids": [
+            "DOC-000395"
+          ],
+          "full_transcripts": 1,
+          "timecoded_transcript_document_ids": [
+            "DOC-000396"
+          ],
+          "unvalidated_transcript_records": 0
+        },
+        "note": ""
+      },
+      {
+        "id": "R07",
+        "title": "研究書目識別碼、摘要及關鍵詞完整度",
+        "status": "PASS",
+        "score": 1,
+        "evidence": [
+          "data/08_reports/bibliographic_records.csv"
+        ],
+        "details": {
+          "scholarly_fulltext": 129,
+          "with_identifier": 128,
+          "with_abstract": 127,
+          "with_keywords": 122
+        },
+        "note": ""
+      },
+      {
+        "id": "R08",
+        "title": "Claims 原子化、主詞解析及衝突語義",
+        "status": "PASS",
+        "score": 1,
+        "evidence": [
+          "data/08_reports/claim_comparison_candidates.csv",
+          "data/08_reports/conflicting_claims.csv"
+        ],
+        "details": {
+          "claims": 798,
+          "resolution_rate": 0.9674185463659147,
+          "evidence_relations": [
+            "reports"
+          ],
+          "reference_or_footer_noise": []
+        },
+        "note": ""
+      },
+      {
+        "id": "R09",
+        "title": "跨主題正向檢索、對抗測試與安全拒答",
+        "status": "PASS",
+        "score": 1,
+        "evidence": [
+          "data/08_reports/retrieval_evaluation.csv",
+          "data/08_reports/retrieval_evaluation.md"
+        ],
+        "details": {
+          "questions": 36,
+          "all_pass": true,
+          "adversarial_questions": 10,
+          "adversarial_all_pass": true,
+          "positive_topic_coverage": {
+            "mountain_or_village": true,
+            "expert": true,
+            "processing": true,
+            "cultivar": true,
+            "safety": true,
+            "history_or_ebook": true,
+            "standards_or_regulation": true
+          }
+        },
+        "note": ""
+      },
+      {
+        "id": "R10",
+        "title": "PostgreSQL／pgvector 混合檢索、飽和度、恢復及可持續運維",
+        "status": "PASS",
+        "score": 1,
+        "evidence": [
+          "docker-compose.yml",
+          "src/puer_kb/postgres_runtime.py",
+          "data/08_reports/postgres_pgvector_runtime.json",
+          "data/08_reports/saturation_report.json",
+          "data/08_reports/restore_drill.json",
+          "data/08_reports/test_run.json"
+        ],
+        "details": {
+          "docker_pgvector": true,
+          "postgres_runtime": true,
+          "runtime_kind": "PGlite PostgreSQL WASM single-user validation",
+          "postgres_version": "PostgreSQL 18.3 (PGlite 0.5.4) on wasm32-unknown-linux-gnu, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+          "production_server_validated": false,
+          "pgvector_version": "0.8.1",
+          "indexed_rows": 4300,
+          "vector_runtime": true,
+          "max_discovery_round": 3,
+          "saturation_status": "stage_saturated",
+          "restore_drill": true,
+          "crawl_jobs": 7,
+          "crawl_events": 100
+        },
+        "note": ""
+      }
+    ]
+  },
+  "coverage_reality": {
+    "verified_experts": 256,
+    "expert_target": 100,
+    "expert_candidates": 4615,
+    "fulltext_status_counts": {
+      "DEAD": 2,
+      "DISCOVERED": 75,
+      "DOWNLOAD_FAILED": 7,
+      "FULL_EPUB": 1,
+      "FULL_HTML": 10,
+      "FULL_PDF": 32,
+      "FULL_TEXT": 95,
+      "FULL_TRANSCRIPT": 1,
+      "METADATA_ONLY": 200,
+      "PARTIAL": 15,
+      "RIGHTS_RESTRICTED": 51,
+      "ROBOTS_BLOCKED": 2
+    },
+    "successful_fulltext": 139
+  },
+  "limitations_and_open_items": [
+    {
+      "target": "external completeness",
+      "status": "bounded",
+      "reason": "robots、權利、失效網址及未取得全文均保留原狀態，沒有繞過限制。"
+    }
+  ],
+  "evidence": {
+    "verification": {
+      "checked_fulltext": 139,
+      "errors": [],
+      "ok": true,
+      "backup": {
+        "status": "verified",
+        "ok": true,
+        "checked": 338,
+        "errors": []
+      },
+      "at": "2026-08-12T21:58:09+00:00"
+    },
+    "api_smoke": {
+      "generated_at": "2026-08-12T21:58:11+00:00",
+      "base": "http://127.0.0.1:52511",
+      "checks": [
+        {
+          "path": "/puer-tea-knowledge/health",
+          "method": "GET",
+          "status": 200,
+          "ok": true,
+          "has_json": true
+        },
+        {
+          "path": "/puer-tea-knowledge/documents",
+          "method": "GET",
+          "status": 200,
+          "ok": true,
+          "has_json": true
+        },
+        {
+          "path": "/puer-tea-knowledge/documents/DOC-000001",
+          "method": "GET",
+          "status": 200,
+          "ok": true,
+          "has_json": true
+        },
+        {
+          "path": "/puer-tea-knowledge/experts",
+          "method": "GET",
+          "status": 200,
+          "ok": true,
+          "has_json": true
+        },
+        {
+          "path": "/puer-tea-knowledge/experts/PER-000001",
+          "method": "GET",
+          "status": 200,
+          "ok": true,
+          "has_json": true
+        },
+        {
+          "path": "/puer-tea-knowledge/places",
+          "method": "GET",
+          "status": 200,
+          "ok": true,
+          "has_json": true
+        },
+        {
+          "path": "/puer-tea-knowledge/places/PLC-000001",
+          "method": "GET",
+          "status": 200,
+          "ok": true,
+          "has_json": true
+        },
+        {
+          "path": "/puer-tea-knowledge/reports/acquisition",
+          "method": "GET",
+          "status": 200,
+          "ok": true,
+          "has_json": true
+        },
+        {
+          "path": "/puer-tea-knowledge/search",
+          "method": "POST",
+          "status": 200,
+          "ok": true,
+          "has_json": true
+        },
+        {
+          "path": "/puer-tea-knowledge/ask",
+          "method": "POST",
+          "status": 200,
+          "ok": true,
+          "has_json": true
+        }
+      ],
+      "ok": true
+    },
+    "tests": {
+      "generated_at": "2026-08-12T21:58:23+00:00",
+      "tests_run": 33,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "ok": true
+    }
+  }
+}

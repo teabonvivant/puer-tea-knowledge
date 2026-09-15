@@ -1,0 +1,37 @@
+﻿question_id,category,question,result_count,citation_count,location_count,matched_terms,term_coverage,expected_document_ids,expected_hits,forbidden_hits,precision_proxy,expect_no_result,canonical_unique,pass,top_document_id
+Q01,fermentation_microbiology,What microbial changes occur during Pu-erh tea fermentation?,5,5,5,microbial;fermentation,1.0,DOC-000002;DOC-000003;DOC-000008;DOC-000009,DOC-000008,,0.2,False,True,True,DOC-000425
+Q02,fermentation_process,What is pile fermentation in ripe Pu-erh tea?,5,5,5,pile fermentation;fermentation,1.0,DOC-000003;DOC-000008;DOC-000009;DOC-000015;DOC-000087;DOC-000408;DOC-000412;DOC-000419,DOC-000003;DOC-000008;DOC-000087;DOC-000419,,0.8,False,True,True,DOC-000426
+Q03,storage,How does storage time affect ripe Pu-Erh tea?,5,5,5,storage;quality,1.0,DOC-000004;DOC-000008;DOC-000009;DOC-000017;DOC-000419,DOC-000419,,0.2,False,True,True,DOC-000419
+Q04,safety,What mycotoxins have been measured in Pu-erh tea?,3,3,3,mycotoxin;toxic,1.0,DOC-000002;DOC-000008;DOC-000009,DOC-000002;DOC-000009,,0.6666666666666666,False,True,True,DOC-000446
+Q05,fermentation_microbiology,What microbiome methods are used for Pu-erh tea?,5,5,5,microbiome;sequencing,1.0,DOC-000002;DOC-000003;DOC-000008;DOC-000009,DOC-000002;DOC-000003;DOC-000009,,0.6,False,True,True,DOC-000003
+Q06,chemistry,What chemical composition changes during tea fermentation?,5,5,5,chemical;composition,1.0,DOC-000002;DOC-000004;DOC-000008;DOC-000009;DOC-000015;DOC-000023,DOC-000004;DOC-000015;DOC-000023,,0.6,False,True,True,DOC-000425
+Q07,product_comparison,How do raw and ripened Pu-erh teas differ?,5,5,5,raw;ripened,1.0,DOC-000002;DOC-000008;DOC-000009;DOC-000017;DOC-000196;DOC-000484,DOC-000484,,0.2,False,True,True,DOC-000484
+Q08,fermentation_microbiology,Which microorganisms are dominant in Pu-erh fermentation?,5,5,5,microbial;dominant,1.0,DOC-000002;DOC-000003;DOC-000008;DOC-000009;DOC-000015;DOC-000018,DOC-000008;DOC-000015;DOC-000018,,0.6,False,True,True,DOC-000018
+Q09,sensory_chemistry,What is known about Pu-erh tea aroma during fermentation?,5,5,5,aroma;fermentation,1.0,DOC-000002;DOC-000003;DOC-000008;DOC-000009;DOC-000015;DOC-000018;DOC-000408,DOC-000003;DOC-000408,,0.4,False,True,True,DOC-000408
+Q10,fermentation_process,What temperature changes occur in a Pu-erh tea pile?,5,5,5,temperature;pile,1.0,DOC-000008;DOC-000013;DOC-000018;DOC-000023,DOC-000013,,0.2,False,True,True,DOC-000410
+Q11,chemistry,How do polyphenols change in fermented Pu-erh tea?,5,5,5,polyphenol;fermentation,1.0,DOC-000002;DOC-000003;DOC-000008;DOC-000009;DOC-000023,DOC-000002;DOC-000008;DOC-000009,,0.6,False,True,True,DOC-000009
+Q12,chemistry,What is reported about caffeine during Pu-erh pile fermentation?,5,5,5,caffeine;fermentation,1.0,DOC-000002;DOC-000008;DOC-000009;DOC-000023,DOC-000008,,0.2,False,True,True,DOC-000426
+Q13,fermentation_microbiology,What role does Aspergillus play in Pu-erh tea?,5,5,5,aspergillus;pu-erh,1.0,DOC-000002;DOC-000003;DOC-000008;DOC-000009;DOC-000018,DOC-000002;DOC-000003;DOC-000008;DOC-000009,,0.8,False,True,True,DOC-000412
+Q14,fermentation_microbiology,What bacterial communities occur in fermented tea?,5,5,5,bacterial;community,1.0,DOC-000002;DOC-000003;DOC-000008;DOC-000009;DOC-000015,DOC-000002;DOC-000008;DOC-000009,,0.6,False,True,True,DOC-000008
+Q15,chemistry_health_claims,What antioxidant activity has been measured in Pu-erh tea?,5,5,5,antioxidant;pu-erh,1.0,DOC-000002;DOC-000004;DOC-000008;DOC-000009;DOC-000146;DOC-000480,DOC-000480,,0.2,False,True,True,DOC-000480
+Q16,safety,What food safety evidence is available for Pu-erh tea?,5,5,5,safety;tea,1.0,DOC-000002;DOC-000008;DOC-000009;DOC-000146,DOC-000002;DOC-000008;DOC-000009,,0.6,False,True,True,DOC-000003
+Q17,cultivar_taxonomy,What tea cultivars and Camellia varieties are relevant to Yunnan tea?,5,5,5,cultivar;camellia,1.0,DOC-000064;DOC-000188;DOC-000196;DOC-000198,DOC-000188;DOC-000196;DOC-000198,,0.6,False,True,True,DOC-000199
+Q18,fermentation_process,What does post-fermentation mean for Pu-erh tea?,5,5,5,fermentation;tea,1.0,DOC-000002;DOC-000003;DOC-000004;DOC-000008;DOC-000009;DOC-000015;DOC-000017;DOC-000018;DOC-000031;DOC-000403;DOC-000404;DOC-000408;DOC-000410;DOC-000412;DOC-000417,DOC-000004;DOC-000017;DOC-000031;DOC-000403,,0.8,False,True,True,DOC-000004
+Q19,research_limitations,What limitations do Pu-erh tea microbiome studies report?,5,5,5,study;limitation,1.0,DOC-000002;DOC-000003;DOC-000008;DOC-000009,DOC-000002;DOC-000003;DOC-000009,,0.6,False,True,True,DOC-000009
+Q20,health_claims,What health claims about Pu-erh tea require caution?,5,5,5,health;claim,1.0,DOC-000002;DOC-000003;DOC-000008;DOC-000009;DOC-000018,DOC-000002;DOC-000009,,0.4,False,True,True,DOC-000427
+Q21,mountain_village,冰島老寨 海拔,0,0,0,,0.0,,,,,True,True,True,
+Q22,mountain_village,老班章村 茶山,0,0,0,,0.0,,,,,True,True,True,
+Q23,standards_regulation,普洱茶 食品安全 標準 法規,1,1,1,食品安全;标准,1.0,DOC-000393,DOC-000393,,1.0,False,True,True,DOC-000393
+Q24,electronic_books_history,普洱茶 電子書 古籍,0,0,0,,0.0,,,,,True,True,True,
+Q25,standards_regulation,普洱茶 國家標準 感官評審,1,1,1,感官;加工,1.0,DOC-000393,DOC-000393,,1.0,False,True,True,DOC-000393
+Q26,mountain_village,普洱茶 山頭官方名錄,0,0,0,,0.0,,,,,True,True,True,
+Q27,clinical_evidence,Pu-erh randomized human clinical trial,2,2,2,randomized;human;clinical,1.0,DOC-000471,DOC-000471,,0.5,False,True,True,DOC-000471
+Q28,standards_regulation,Pu-erh national food safety regulation standard,0,0,0,,0.0,,,,,True,True,True,
+Q29,standards_regulation,Pu-erh official geographic indication standard,0,0,0,,0.0,,,,,True,True,True,
+Q30,expert_identity_gate,Which verified experts study Pu-erh mountain tea?,0,0,0,,0.0,,,,,True,True,True,
+Q31,cross_domain_adversarial,table olive fermentation Pu-erh tea,0,0,0,,0.0,,,,,True,True,True,
+Q32,cross_domain_adversarial,landfill leachate Pu-erh tea,0,0,0,,0.0,,,,,True,True,True,
+Q33,electronic_books_history,Pu-erh tea ISBN ebook ancient book,0,0,0,,0.0,,,,,True,True,True,
+Q34,canonical_deduplication,Tea history,5,5,5,tea;history,1.0,DOC-000352,DOC-000352,,0.2,False,True,True,DOC-000352
+Q35,mountain_village,Longba village plantation elevation,5,5,5,longba;elevation,1.0,DOC-000196,DOC-000196,,0.2,False,True,True,DOC-000196
+Q36,expert_profile,Ming Zhao Pu-erh microbial fermentation,5,5,5,microbial;fermentation,1.0,DOC-000003;DOC-000008,DOC-000003;DOC-000008,,0.4,False,True,True,DOC-000008

@@ -1,0 +1,35 @@
+# Claim 來源核對協議
+
+- 執行時間：2026-08-12T21:10:37+00:00
+- 核對數：150
+- 核對者類型：`AI_ASSISTED_SOURCE_CHECK`
+- 邊界：本流程只核對候選句是否連到原段、所處語境、研究設計及可安全表述的範圍；它不是具名人類專家的學科簽署，亦不把候選句提升為已證實事實。
+
+## 風險分布
+
+- HIGH_HEALTH: 30
+- HIGH_HISTORY_STANDARD_CULTURE: 15
+- HIGH_PROVENANCE: 25
+- HIGH_SAFETY: 30
+- MEDIUM_SCIENTIFIC: 25
+- MEDIUM_STORAGE_SENSORY: 25
+
+## 處置分布
+
+- DEFER_TO_PRIMARY_SOURCE: 17
+- NEEDS_SUBJECT_RESOLUTION: 1
+- REJECT_FRAGMENT_OR_NOISE: 4
+- REJECT_OUT_OF_SCOPE: 14
+- RETAIN_AS_INTERPRETATION_ONLY: 6
+- RETAIN_HUMAN_OBSERVATIONAL_SPECIFIC: 4
+- RETAIN_METHOD_DESCRIPTION: 13
+- RETAIN_PRECLINICAL_ONLY: 20
+- RETAIN_SAFETY_STUDY_SPECIFIC: 21
+- RETAIN_SOURCE_REPORTED_OBSERVATION: 50
+
+## 發布規則
+
+1. `HOLD` 不得作網站結論，只可展示審查包。
+2. `REFERENCE_ONLY` 只表示可按來源條件轉述，仍不是跨研究共識。
+3. `REQUIRED` 必須由相應領域的具名人類審閱者簽署後，才可進入 `claim_reviews`。
+4. 背景轉述須追查其原始被引文獻；前臨床結果不得寫成人體功效。

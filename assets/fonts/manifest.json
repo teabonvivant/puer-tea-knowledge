@@ -1,0 +1,84 @@
+[
+  {
+    "family": "serif",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoseriftc/",
+    "subsets": [
+      {
+        "file": "tea-serif-00.woff2",
+        "bytes": 109228,
+        "characters": 488
+      },
+      {
+        "file": "tea-serif-01.woff2",
+        "bytes": 55352,
+        "characters": 256
+      },
+      {
+        "file": "tea-serif-02.woff2",
+        "bytes": 59112,
+        "characters": 256
+      },
+      {
+        "file": "tea-serif-03.woff2",
+        "bytes": 61172,
+        "characters": 252
+      },
+      {
+        "file": "tea-serif-04.woff2",
+        "bytes": 59648,
+        "characters": 242
+      },
+      {
+        "file": "tea-serif-05.woff2",
+        "bytes": 54916,
+        "characters": 224
+      },
+      {
+        "file": "tea-serif-06.woff2",
+        "bytes": 27100,
+        "characters": 109
+      }
+    ]
+  },
+  {
+    "family": "sans",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanstc/",
+    "subsets": [
+      {
+        "file": "tea-sans-00.woff2",
+        "bytes": 135028,
+        "characters": 488
+      },
+      {
+        "file": "tea-sans-01.woff2",
+        "bytes": 70636,
+        "characters": 256
+      },
+      {
+        "file": "tea-sans-02.woff2",
+        "bytes": 74612,
+        "characters": 256
+      },
+      {
+        "file": "tea-sans-03.woff2",
+        "bytes": 76880,
+        "characters": 252
+      },
+      {
+        "file": "tea-sans-04.woff2",
+        "bytes": 75880,
+        "characters": 242
+      },
+      {
+        "file": "tea-sans-05.woff2",
+        "bytes": 69488,
+        "characters": 224
+      },
+      {
+        "file": "tea-sans-06.woff2",
+        "bytes": 34000,
+        "characters": 109
+      }
+    ]
+  }
+]

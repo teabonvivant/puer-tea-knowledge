@@ -515,7 +515,7 @@ main { min-height: 72vh; }
 .page-context { margin-bottom: 0; }
 .breadcrumbs { margin-bottom: 1.35rem; color: var(--muted); font-size: var(--step--1); }
 .breadcrumbs ol { display: flex; margin: 0; padding: 0; flex-wrap: wrap; gap: 0.4rem; list-style: none; }
-.breadcrumbs li + li::before { margin-right: 0.4rem; color: var(--line-strong); content: "/puer-tea-knowledge/"; }
+.breadcrumbs li + li::before { margin-right: 0.4rem; color: var(--line-strong); content: "/"; }
 
 .eyebrow,
 .kicker {
@@ -894,3 +894,24 @@ main { min-height: 72vh; }
   .card,
   .data-table-wrap { break-inside: avoid; background: white; }
 }
+
+/* 唐老師網站家族 */
+.tw-family{background:#173c2e;color:#dbe4df;font:13px/1.5 var(--sans)}
+.tw-family-inner{max-width:1376px;margin:auto;padding:0 20px;min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.tw-family a{color:inherit;text-decoration:none;min-height:36px;display:inline-flex;align-items:center}
+.tw-family a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.tw-family-home span{margin-left:.6em;color:#a9bab1}
+.tw-family nav{display:flex;gap:18px}
+.tw-cta{max-width:1100px;margin:56px auto 0;padding:0 20px}
+.tw-cta-box{display:grid;gap:18px;padding:28px 24px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.tw-cta-kicker{margin:0;color:var(--muted);font-size:13px;letter-spacing:.08em}
+.tw-cta h2{margin:.25rem 0 .5rem;font:600 1.35rem/1.5 var(--serif);color:var(--ink)}
+.tw-cta p{margin:0;color:var(--ink-soft);line-height:1.8}
+.tw-cta-link{justify-self:start;display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:4px;background:var(--forest);color:#fff;text-decoration:none;font-size:15px}
+.tw-cta-link:hover{background:var(--forest-deep);color:#fff}
+@media(min-width:760px){.tw-family-inner{padding:0 40px}.tw-cta-box{grid-template-columns:1fr auto;align-items:center;padding:32px 40px}.tw-cta-link{justify-self:end}}
+@media(max-width:420px){.tw-family-home span{display:none}.tw-family nav{gap:14px}}
+.footer .footer-grid{grid-template-columns:1.5fr repeat(4,1fr);gap:32px}
+@media(max-width:980px){.footer .footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tw-cta{margin-bottom:56px}
+.breadcrumbs li + li::before{content:"/"}
